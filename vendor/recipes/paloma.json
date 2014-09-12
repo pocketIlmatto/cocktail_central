@@ -1,0 +1,30 @@
+ {
+        "id": "Paloma", 
+        "name": "Paloma",
+        "method": "Shake first ingredients, top with Ting",
+         "ingredients": [
+            {
+            "amount": "50",
+            "amountUnits": "ml",
+            "ingredientName": "Tequila"
+                        },
+                       {
+            "amount": "15",
+            "amountUnits": "ml",
+            "ingredientName": "Fresh Lime Juice"
+                        },
+                       {
+            "amount": "50",
+            "amountUnits": "ml",
+            "ingredientName": "Grapefruit Juice"
+                        },
+                       {
+            "amount": "",
+            "amountUnits": "",
+            "ingredientName": "Top with 'Ting' Grapefruit Soda"
+                        }
+                        ],
+        "glass": "Salted Rim Collins Glass",
+        "garnish": "Lime Wedge"
+
+    }

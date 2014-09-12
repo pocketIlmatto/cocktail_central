@@ -1,0 +1,18 @@
+<h1>Recipes</h1>
+<%= if !@item.nil?
+	puts "List of recipes containing #{@item.name}" end %>
+
+<p>
+
+<%= will_paginate %>
+
+<ul class="recipes">
+  <%= render @recipes %>
+</ul>
+<%= will_paginate %>
+
+
+<br>
+
+
+<%= link_to 'Search Recipes', search_path %>

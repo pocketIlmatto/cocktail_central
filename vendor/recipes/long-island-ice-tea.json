@@ -1,0 +1,45 @@
+ {
+        "id": "long-island-ice-tea", 
+        "name": "Long Island Ice Tea",
+        "method": "Shake first ingredients and top with Coke",
+         "ingredients": [
+            {
+            "amount": "12.5",
+            "amountUnits": "ml",
+            "ingredientName": "Vodka"
+                        },
+                       {
+            "amount": "12.5",
+            "amountUnits": "ml",
+            "ingredientName": "Dry Gin"
+                        },
+                       {
+            "amount": "12.5",
+            "amountUnits": "ml",
+            "ingredientName": "Light Rum"
+                        },
+                       {
+            "amount": "12.5",
+            "amountUnits": "ml",
+            "ingredientName": "Blanco Tequila"
+                        },
+                       {
+            "amount": "12.5",
+            "amountUnits": "ml",
+            "ingredientName": "Triple Sec"
+                        },
+                       {
+            "amount": "25",
+            "amountUnits": "ml",
+            "ingredientName": "Fresh Lemon Juice"
+                        },
+                       {
+            "amount": "",
+            "amountUnits": "",
+            "ingredientName": "Top with Coca Cola"
+                        }
+                        ],
+        "glass": "Collins Glass", 
+        "garnish": "Lemon Wedge"
+
+    }

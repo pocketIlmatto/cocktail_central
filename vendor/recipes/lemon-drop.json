@@ -1,0 +1,25 @@
+ {
+        "id": "lemon-drop", 
+        "name": "Lemon Drop",
+        "method": "Shake hard and fine strain",
+         "ingredients": [
+            {
+            "amount": "50",
+            "amountUnits": "ml",
+            "ingredientName": "Lemon Vodka"
+                        },
+                       {
+            "amount": "25",
+            "amountUnits": "ml",
+            "ingredientName": "Fresh Lemon Juice"
+                        },
+                       {
+            "amount": "15",
+            "amountUnits": "ml",
+            "ingredientName": "Simple Syrup"
+                        }
+                        ],
+        "glass": "Cocktail Glass", 
+        "garnish": "Lemon Twist"
+
+    }

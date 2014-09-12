@@ -1,0 +1,25 @@
+     {
+        "id": "Japanese-Slipper", 
+        "name": "Japanese Slipper",
+        "method": "Shake hard and fine strain",
+         "ingredients": [
+            {
+            "amount": "25",
+            "amountUnits": "ml",
+            "ingredientName": "Midori Melon Liqueur"
+                        },
+                       {
+            "amount": "25",
+            "amountUnits": "ml",
+            "ingredientName": "Cointreau Liqueur"
+                        },
+                       {
+            "amount": "25",
+            "amountUnits": "ml",
+            "ingredientName": "Fresh Lemon Juice"
+                        }
+                        ],
+        "glass": "Cocktail Glass", 
+        "garnish": "Melon Slice"
+
+    }

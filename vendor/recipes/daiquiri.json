@@ -1,0 +1,24 @@
+  {
+        "id": "Daiquiri", 
+        "name": "Daiquiri",
+        "method": "Shake hard and fine strain",
+         "ingredients": [
+            {
+            "amount": "50",
+            "amountUnits": "ml",
+            "ingredientName": "Cuban style Rum"
+                        },
+                       {
+            "amount": "25",
+            "amountUnits": "ml",
+            "ingredientName": "Fresh Lime Juice"
+                        },
+                        {
+            "amount": "15",
+            "amountUnits": "ml",
+            "ingredientName": "Simple Syrup"
+                        }
+                        ],
+        "glass": "Cocktail Glass"
+
+    }

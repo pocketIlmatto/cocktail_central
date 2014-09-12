@@ -1,0 +1,25 @@
+{
+        "id": "brandy-alexander", 
+        "name": "Brandy Alexander",
+        "method": "Shake hard and fine strain",
+         "ingredients": [
+            {
+            "amount": "25",
+            "amountUnits": "ml",
+            "ingredientName": "Brandy"
+                        },
+                       {
+            "amount": "25",
+            "amountUnits": "ml",
+            "ingredientName": "Creme de Cacao"
+                        },
+                        {
+            "amount": "25",
+            "amountUnits": "ml",
+            "ingredientName": "Creme"
+                        }
+                        ],
+        "glass": "Cocktail Glass", 
+        "garnish": "Grated Nutmeg"
+
+    }

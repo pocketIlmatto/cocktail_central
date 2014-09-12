@@ -1,0 +1,35 @@
+ {
+        "id": "whiskey-sour", 
+        "name": "Whiskey Sour",
+        "method": "Dry Shake (if egg), Wet Shake, Fine Strain",
+         "ingredients": [
+            {
+            "amount": "50",
+            "amountUnits": "ml",
+            "ingredientName": "American Whiskey"
+                        },
+                       {
+            "amount": "25",
+            "amountUnits": "ml",
+            "ingredientName": "Fresh Lemon Juice"
+                        },
+                       {
+            "amount": "15",
+            "amountUnits": "ml",
+            "ingredientName": "Simple Syrup"
+                        },
+                       {
+            "amount": "10",
+            "amountUnits": "ml",
+            "ingredientName": "Egg White (optional)"
+                        },
+                       {
+            "amount": "1",
+            "amountUnits": "Dash",
+            "ingredientName": "Angostura Bitters (optional)"
+                        }
+                        ],
+        "glass": "Rocks/Coupette Glass",
+        "garnish": "Orange Twist"
+
+    }

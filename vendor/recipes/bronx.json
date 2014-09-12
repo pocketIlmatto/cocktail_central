@@ -1,0 +1,31 @@
+{
+        "id": "bronx", 
+        "name": "Bronx",
+        "Description": "Created 1906 by Johnny Solon, Waldolf-Astoria, NY.",
+        "method": "Shake hard and fine strain",
+         "ingredients": [
+            {
+            "amount": "50",
+            "amountUnits": "ml",
+            "ingredientName": "Dry Gin"
+                        },
+                       {
+            "amount": "25",
+            "amountUnits": "ml",
+            "ingredientName": "Dry Vermouth"
+                        },
+                        {
+            "amount": "25",
+            "amountUnits": "ml",
+            "ingredientName": "Sweet Vermouth"
+                        },
+                        {
+            "amount": "30",
+            "amountUnits": "ml",
+            "ingredientName": "Orange Juice"
+                        }
+                        ],
+        "glass": "Cocktail Glass", 
+        "garnish": "Orange Twist"
+
+    }

@@ -1,0 +1,35 @@
+ {
+        "id": "Manhattan", 
+        "name": "Manhattan",
+        "method": "Stir in mixing glass and strain",
+         "ingredients": [
+            {
+            "amount": "50",
+            "amountUnits": "ml",
+            "ingredientName": "Rye or Bourbon Whiskey"
+                        },
+                       {
+            "amount": "2",
+            "amountUnits": "Dashes",
+            "ingredientName": "Angostura Bitters"
+                        },
+                       {
+            "amount": "15",
+            "amountUnits": "ml",
+            "ingredientName": "Sweet Vermouth (Sweet Manhattan)"
+                        },
+                       {
+            "amount": "15",
+            "amountUnits": "ml",
+            "ingredientName": "Dry Vermouth (Dry Manhattan)"
+                        },
+                       {
+            "amount": "10",
+            "amountUnits": "ml",
+            "ingredientName": "Each Sweet & Dry Vermouth (Perfect Manhattan)"
+                        }
+                        ],
+        "glass": "Cocktail Glass", 
+        "garnish": "Maraschino Cherry"
+
+    }

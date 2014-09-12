@@ -1,0 +1,25 @@
+ {
+        "id": "Espresso-Martini", 
+        "name": "Espresso Martini",
+        "method": "Shake hard and fine strain",
+         "ingredients": [
+            {
+            "amount": "25",
+            "amountUnits": "ml",
+            "ingredientName": "Vodka"
+                        },
+                       {
+            "amount": "25",
+            "amountUnits": "ml",
+            "ingredientName": "Coffee Liqueur"
+                        },
+                        {
+            "amount": "25",
+            "amountUnits": "ml",
+            "ingredientName": "Chilled Espresso Coffee"
+                        }
+                        ],
+        "glass": "Cocktail Glass", 
+        "garnish": "Three Coffee Beans"
+
+    }

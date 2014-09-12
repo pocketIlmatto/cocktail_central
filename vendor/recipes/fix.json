@@ -1,0 +1,30 @@
+{
+        "id": "Fix", 
+        "name": "Fix",
+        "method": "Shake hard and strain",
+         "ingredients": [
+            {
+            "amount": "50",
+            "amountUnits": "ml",
+            "ingredientName": "Base Spirit"
+                        },
+                       {
+            "amount": "25",
+            "amountUnits": "ml",
+            "ingredientName": "Fresh Lemon Juice"
+                        },
+                        {
+            "amount": "25",
+            "amountUnits": "ml",
+            "ingredientName": "Sweet Fruit Juice"
+                        },
+                        {
+            "amount": "10",
+            "amountUnits": "ml",
+            "ingredientName": "Simple Syrup"
+                        }
+                        ],
+        "glass": "Collins Glass", 
+        "garnish": "Use fruit from recipe"
+
+    }

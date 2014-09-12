@@ -1,0 +1,35 @@
+{
+        "id": "screaming-orgasm", 
+        "name": "Screaming Orgasm",
+        "method": "Shake and strain",
+         "ingredients": [
+            {
+            "amount": "25",
+            "amountUnits": "ml",
+            "ingredientName": "Vodka"
+                        },
+                       {
+            "amount": "15",
+            "amountUnits": "ml",
+            "ingredientName": "Baileys Irish Creme"
+                        },
+                       {
+            "amount": "15",
+            "amountUnits": "ml",
+            "ingredientName": "Coffee Liqueur"
+                        },
+                       {
+            "amount": "15",
+            "amountUnits": "ml",
+            "ingredientName": "Amaretto Liqueur"
+                        },
+                       {
+            "amount": "75",
+            "amountUnits": "ml",
+            "ingredientName": "Milk/Creme"
+                        }
+                        ],
+        "glass": "Collins Glass",
+        "garnish": "Orange Slice"
+
+    }

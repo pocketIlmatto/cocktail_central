@@ -1,0 +1,27 @@
+{
+        "id": "bentons", 
+        "name": "Benton's Old Fashioned",
+        "Description": "Created 2008 by Don Lee, PDT New York.",
+        "method": "Stir in glass",
+         "ingredients": [
+            {
+            "amount": "50",
+            "amountUnits": "ml",
+            "ingredientName": "Bacon Washed Bourbon"
+                        },
+                       {
+            "amount": "5",
+            "amountUnits": "ml",
+            "ingredientName": "Maple Syrup"
+                        },
+                        {
+            "amount": "2",
+            "amountUnits": "Dashes",
+            "ingredientName": "Angostura Bitters"
+                        }
+                          
+                        ],
+        "glass": "Rocks Glass", 
+        "garnish": "Orange Twist"
+
+    }

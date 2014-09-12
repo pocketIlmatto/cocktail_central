@@ -1,0 +1,30 @@
+{
+        "id": "El-Presidente", 
+        "name": "El Presidente",
+        "method": "Shake hard and fine strain",
+         "ingredients": [
+            {
+            "amount": "50",
+            "amountUnits": "ml",
+            "ingredientName": "White Rum"
+                        },
+                       {
+            "amount": "25",
+            "amountUnits": "ml",
+            "ingredientName": "Pineapple Juice"
+                        },
+                        {
+            "amount": "20",
+            "amountUnits": "ml",
+            "ingredientName": "Fresh Lime Juice"
+                        },
+                        {
+            "amount": "10",
+            "amountUnits": "ml",
+            "ingredientName": "Grenadine"
+                        }
+                        ],
+        "glass": "Cocktail Glass", 
+        "garnish": "Lime Wedge"
+
+    }

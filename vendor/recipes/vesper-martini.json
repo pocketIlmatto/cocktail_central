@@ -1,0 +1,25 @@
+  {
+        "id": "Vesper-Martini", 
+        "name": "Vesper Martini",
+        "method": "Shake hard and fine strain",
+         "ingredients": [
+            {
+            "amount": "75",
+            "amountUnits": "ml",
+            "ingredientName": "Vodka"
+                        },
+                       {
+            "amount": "25",
+            "amountUnits": "ml",
+            "ingredientName": "Dry Gin"
+                        },
+                       {
+            "amount": "15",
+            "amountUnits": "ml",
+            "ingredientName": "Lillet"
+                        }
+                        ],
+        "glass": "Cocktail Glass",
+        "garnish": "Lemon Twist"
+
+    }

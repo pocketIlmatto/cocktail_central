@@ -1,0 +1,25 @@
+ {
+        "id": "dark-n-stormy", 
+        "name": "Dark 'n' Stormy",
+        "method": "Build in glass",
+         "ingredients": [
+            {
+            "amount": "50",
+            "amountUnits": "ml",
+            "ingredientName": "Goslings Black Seal Rum"
+                        },
+                       {
+            "amount": "15",
+            "amountUnits": "ml",
+            "ingredientName": "Fresh Lime Juice"
+                        },
+                        {
+            "amount": "",
+            "amountUnits": "",
+            "ingredientName": "Top with Ginger Beer"
+                        }
+                        ],
+        "glass": "Collins Glass", 
+        "garnish": "Lime Wedge"
+
+    }

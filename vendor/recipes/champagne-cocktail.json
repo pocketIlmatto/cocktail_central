@@ -1,0 +1,25 @@
+  {
+        "id": "Champagne-Cocktail", 
+        "name": "Champagne Cocktail",
+        "method": "Build in glass",
+         "ingredients": [
+            {
+            "amount": "25",
+            "amountUnits": "ml",
+            "ingredientName": "Cognac"
+                        },
+                       {
+            "amount": "1",
+            "amountUnits": "Sugar Cube",
+            "ingredientName": "soaked with Angostura Bitters"
+                        },
+                        {
+            "amount": "",
+            "amountUnits": "",
+            "ingredientName": "Top with Champagne"
+                        }
+                        ],
+        "glass": "Sparkling Wine Glass", 
+        "garnish": "Discarded Organge Zest"
+
+    }

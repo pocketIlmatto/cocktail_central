@@ -1,0 +1,35 @@
+{
+        "id": "Champs-Elysées", 
+        "name": "Champs-Elysées",
+        "method": "Shake hard and fine strain",
+         "ingredients": [
+            {
+            "amount": "40",
+            "amountUnits": "ml",
+            "ingredientName": "Cognac"
+                        },
+                       {
+            "amount": "12.5",
+            "amountUnits": "ml",
+            "ingredientName": "Green Chartreuse"
+                        },
+                        {
+            "amount": "12.5",
+            "amountUnits": "ml",
+            "ingredientName": "Fresh Lemon Juice"
+                        },
+                        {
+            "amount": "10",
+            "amountUnits": "ml",
+            "ingredientName": "Simple Syrup"
+                        },
+                        {
+            "amount": "2",
+            "amountUnits": "Dashes",
+            "ingredientName": "Angostura Bitters"
+                        }
+                        ],
+        "glass": "Cocktail Glass", 
+        "garnish": "Lemon Twist"
+
+    }

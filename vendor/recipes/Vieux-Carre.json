@@ -1,0 +1,35 @@
+{
+        "id": "Vieux-Carre", 
+        "name": "Vieux Carré",
+        "method": "Stir in glass",
+         "ingredients": [
+            {
+            "amount": "15",
+            "amountUnits": "ml",
+            "ingredientName": "Rye Whiskey"
+                        },
+                       {
+            "amount": "25",
+            "amountUnits": "ml",
+            "ingredientName": "Cognac"
+                        },
+                       {
+            "amount": "25",
+            "amountUnits": "ml",
+            "ingredientName": "Sweet Vermouth"
+                        },
+                       {
+            "amount": "1",
+            "amountUnits": "Dash",
+            "ingredientName": "Benedictine DOM"
+                        },
+                       {
+            "amount": "2",
+            "amountUnits": "Dashes",
+            "ingredientName": "Angostura Bitters"
+                        }
+                        ],
+        "glass": "Rocks Glass",
+        "garnish": "Orange Twist"
+
+    }

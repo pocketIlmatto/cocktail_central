@@ -1,0 +1,4 @@
+<li>
+      <%= item.display_name  %> | 
+      <%= link_to 'Show related recipes', recipes_path + "?search_ingredient=#{item.id}" %>  
+ </li>

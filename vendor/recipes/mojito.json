@@ -1,0 +1,35 @@
+{
+        "id": "Mojito", 
+        "name": "Mojito",
+        "method": "Slap mint, add other ingredients, churn with crushed ice",
+         "ingredients": [
+            {
+            "amount": "50",
+            "amountUnits": "ml",
+            "ingredientName": "Cuban style Rum"
+                        },
+                       {
+            "amount": "8-12",
+            "amountUnits": "",
+            "ingredientName": "Fresh Mint Leafs"
+                        },
+                       {
+            "amount": "25",
+            "amountUnits": "ml",
+            "ingredientName": "Fresh Lime Juice"
+                        },
+                       {
+            "amount": "15",
+            "amountUnits": "ml",
+            "ingredientName": "Simple Syrup"
+                        },
+                       {
+            "amount": "",
+            "amountUnits": "",
+            "ingredientName": "Top with Soda Water"
+                        }
+                        ],
+        "glass": "Collins Glass",
+        "garnish": "Mint Sprig"
+
+    }

@@ -1,0 +1,31 @@
+ {
+        "id": "blue-moon", 
+        "name": "Blue Moon",
+        "method": "Shake and fine strain",
+         "ingredients": [
+            {
+            "amount": "50",
+            "amountUnits": "ml",
+            "ingredientName": "Dry Gin"
+                        },
+                       {
+            "amount": "25",
+            "amountUnits": "ml",
+            "ingredientName": "Fresh Lemon Juice"
+                        },
+                        {
+            "amount": "20",
+            "amountUnits": "ml",
+            "ingredientName": "SCreme Yvette or Creme de Violette"
+                        },
+                        {
+            "amount": "10",
+            "amountUnits": "ml",
+            "ingredientName": "Egg White (optional)"
+                        }
+                          
+                        ],
+        "glass": "Cocktail Glass", 
+        "garnish": "Raspberry"
+
+    }

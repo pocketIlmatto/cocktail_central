@@ -1,0 +1,29 @@
+ {
+        "id": "clover-club", 
+        "name": "Clover Club",
+        "method": "Dry shake, wet shake, fine strain",
+         "ingredients": [
+            {
+            "amount": "50",
+            "amountUnits": "ml",
+            "ingredientName": "Dry Gin"
+                        },
+                       {
+            "amount": "25",
+            "amountUnits": "ml",
+            "ingredientName": "Lemon Juice"
+                        },
+                        {
+            "amount": "10",
+            "amountUnits": "ml",
+            "ingredientName": "Raspberry Syrup"
+                        },
+                        {
+            "amount": "10",
+            "amountUnits": "ml",
+            "ingredientName": "Egg White"
+                        }
+                        ],
+        "glass": "Cocktail Glass"
+
+    }

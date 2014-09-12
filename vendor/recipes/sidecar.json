@@ -1,0 +1,24 @@
+{
+        "id": "sidecar", 
+        "name": "Sidecar",
+        "method": "Shake hard and fine strain",
+         "ingredients": [
+            {
+            "amount": "50",
+            "amountUnits": "ml",
+            "ingredientName": "Cognac"
+                        },
+                       {
+            "amount": "25",
+            "amountUnits": "ml",
+            "ingredientName": "Triple Sec"
+                        },
+                       {
+            "amount": "20",
+            "amountUnits": "ml",
+            "ingredientName": "Fresh Lemon Juice"
+                        }
+                        ],
+        "glass": "Cocktail Glass"
+
+    }

@@ -1,0 +1,24 @@
+{
+        "id": "French-martini", 
+        "name": "French Martini",
+        "method": "Shake hard and fine strain",
+         "ingredients": [
+            {
+            "amount": "40",
+            "amountUnits": "ml",
+            "ingredientName": "Vodka"
+                        },
+                       {
+            "amount": "15",
+            "amountUnits": "ml",
+            "ingredientName": "Chambord Liqueur"
+                        },
+                        {
+            "amount": "40",
+            "amountUnits": "ml",
+            "ingredientName": "Fresh Pineapple Juice"
+                        }
+                        ],
+        "glass": "Cocktail Glass", 
+
+    }

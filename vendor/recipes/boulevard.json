@@ -1,0 +1,31 @@
+{
+        "id": "Boulevard", 
+        "name": "Boulevard",
+        "method": "Stir in mixing glass",
+         "ingredients": [
+            {
+            "amount": "75",
+            "amountUnits": "ml",
+            "ingredientName": "Rye Whiskey"
+                        },
+                       {
+            "amount": "30",
+            "amountUnits": "ml",
+            "ingredientName": "Dry Vermouth"
+                        },
+                        {
+            "amount": "15",
+            "amountUnits": "ml",
+            "ingredientName": "Grand Marnier"
+                        },
+                        {
+            "amount": "2",
+            "amountUnits": "Dashes",
+            "ingredientName": "Orange Bitters"
+                        }
+                          
+                        ],
+        "glass": "Cocktail Glass", 
+        "garnish": "Orange Twist and Cherry"
+
+    }

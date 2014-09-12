@@ -1,0 +1,35 @@
+    {
+        "id": "Planters-Punch", 
+        "name": "Planters Punch",
+        "method": "Shake, top with Soda",
+         "ingredients": [
+            {
+            "amount": "50",
+            "amountUnits": "ml",
+            "ingredientName": "Jamaican Rum"
+                        },
+                       {
+            "amount": "25",
+            "amountUnits": "ml",
+            "ingredientName": "Fresh Lime Juice"
+                        },
+                       {
+            "amount": "15",
+            "amountUnits": "ml",
+            "ingredientName": "Simple Syrup"
+                        },
+                       {
+            "amount": "3",
+            "amountUnits": "Dashes",
+            "ingredientName": "Angostura Bitters"
+                        },
+                       {
+            "amount": "",
+            "amountUnits": "",
+            "ingredientName": "Top with Soda"
+                        }
+                        ],
+        "glass": "Collins Glass",
+        "garnish": "Lime Wedge"
+
+    }

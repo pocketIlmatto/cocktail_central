@@ -1,0 +1,30 @@
+{
+        "id": "Diplomat", 
+        "name": "Diplomat",
+        "method": "Stir in mixing glass",
+         "ingredients": [
+            {
+            "amount": "50",
+            "amountUnits": "ml",
+            "ingredientName": "Dry Vermouth"
+                        },
+                       {
+            "amount": "25",
+            "amountUnits": "ml",
+            "ingredientName": "Sweet Vermouth"
+                        },
+                        {
+            "amount": "5",
+            "amountUnits": "ml",
+            "ingredientName": "Maraschino Liqueur"
+                        },
+                        {
+            "amount": "2",
+            "amountUnits": "Dashes",
+            "ingredientName": "Orange Bitters"
+                        }
+                        ],
+        "glass": "Cocktail Glass", 
+        "garnish": "Orange Twist"
+
+    }

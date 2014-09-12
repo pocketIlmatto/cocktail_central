@@ -1,0 +1,30 @@
+ {
+        "id": "French-75", 
+        "name": "French 75",
+        "method": "Shake first ingredients, top sparkling wine",
+         "ingredients": [
+            {
+            "amount": "35",
+            "amountUnits": "ml",
+            "ingredientName": "Base Spirit"
+                        },
+                       {
+            "amount": "15",
+            "amountUnits": "ml",
+            "ingredientName": "Fresh Lemon Juice"
+                        },
+                        {
+            "amount": "10",
+            "amountUnits": "ml",
+            "ingredientName": "Simple Syrup"
+                        },
+                        {
+            "amount": "",
+            "amountUnits": "",
+            "ingredientName": "Top with Sparkling Wine"
+                        }
+                        ],
+        "glass": "Sparkling Wine Glass", 
+        "garnish": "Lemon Twist"
+
+    }

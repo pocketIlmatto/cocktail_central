@@ -1,0 +1,26 @@
+<h1>Search Recipes</h1>
+
+
+<%= form_tag("/recipes", method: "get") do %>
+<section>
+<div id = "initRow">
+  <%= label_tag(:search_ingredient, "Ingredients:") %>
+  <input type="textbox" name="ingredient_list[]" >
+  
+  <!-- TODO auto-complete ingredient selection box -->
+
+</div>
+</section>
+<button type="button" class="filldetails" onclick="addFields()">Add ingredient</button>
+
+<br/>
+
+<%= radio_button_tag(:search_type, "inclusive", true) %>
+<%= label_tag(:type_inclusive, "Search cocktails including ANY of these ingredients") %>
+<%= radio_button_tag(:search_type, "exclusive") %>
+<%= label_tag(:type_exclusive, "Search cocktails that can be made with these ingredients.") %>
+
+
+  <%= submit_tag "Search", :name => nil %>
+<% end %>
+

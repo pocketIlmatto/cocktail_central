@@ -1,0 +1,26 @@
+{
+        "id": "amaretto-sour", 
+        "name": "Amaretto Sour", 
+        "method": "Shake hard and fine strain",
+         "ingredients": [
+            {
+            "amount": "50",
+            "amountUnits": "ml",
+            "ingredientName": "Amaretto Liqueur"
+                        },
+                       {
+            "amount": "25",
+            "amountUnits": "ml",
+            "ingredientName": "Fresh lemon Juice"
+                        }
+                        ,
+                       {
+            "amount": "15",
+            "amountUnits": "ml",
+            "ingredientName": "Simple Syrup"
+                        }  
+                        ],
+        "glass": "Coupette Glass", 
+        "garnish": "Lemon zest"
+
+    }

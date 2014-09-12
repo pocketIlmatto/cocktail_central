@@ -1,0 +1,35 @@
+ {
+        "id": "Gin-Gin-Mule", 
+        "name": "Gin Gin Mule",
+        "method": "Muddle ginger then add and shake base ingredients. Top with Ginger Beer",
+         "ingredients": [
+            {
+            "amount": "50",
+            "amountUnits": "ml",
+            "ingredientName": "Gin"
+                        },
+                       {
+            "amount": "25",
+            "amountUnits": "ml",
+            "ingredientName": "Fresh Lime Juice"
+                        },
+                       {
+            "amount": "10",
+            "amountUnits": "ml",
+            "ingredientName": "Simple Syrup"
+                        },
+                       {
+            "amount": "2",
+            "amountUnits": "",
+            "ingredientName": "Thin Slices Ginger"
+                        },
+                       {
+            "amount": "",
+            "amountUnits": "",
+            "ingredientName": "Top with Ginger Beer"
+                        }
+                        ],
+        "glass": "Collins Glass", 
+        "garnish": "Lime Wedge"
+
+    }

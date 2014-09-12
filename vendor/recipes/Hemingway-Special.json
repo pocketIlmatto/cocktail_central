@@ -1,0 +1,34 @@
+{
+        "id": "Hemingway-Special", 
+        "name": "Hemingway Special",
+        "method": "Shake hard and strain",
+         "ingredients": [
+            {
+            "amount": "50",
+            "amountUnits": "ml",
+            "ingredientName": "Cuban style Rum"
+                        },
+                       {
+            "amount": "25",
+            "amountUnits": "ml",
+            "ingredientName": "Fresh Lime Juice"
+                        },
+                       {
+            "amount": "10",
+            "amountUnits": "ml",
+            "ingredientName": "Maraschino Liqueur"
+                        },
+                       {
+            "amount": "10",
+            "amountUnits": "ml",
+            "ingredientName": "Grapefruit Juice"
+                        },
+                       {
+            "amount": "10",
+            "amountUnits": "ml",
+            "ingredientName": "Simple Syrup (optional)"
+                        }
+                        ],
+        "glass": "Cocktail Glass"
+
+    }

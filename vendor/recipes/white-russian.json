@@ -1,0 +1,24 @@
+    {
+        "id": "white-russian", 
+        "name": "White Russian",
+        "method": "Build in glass",
+         "ingredients": [
+            {
+            "amount": "25",
+            "amountUnits": "ml",
+            "ingredientName": "Vodka"
+                        },
+                       {
+            "amount": "25",
+            "amountUnits": "ml",
+            "ingredientName": "Coffee Liqueur"
+                        },
+                       {
+            "amount": "25",
+            "amountUnits": "ml",
+            "ingredientName": "Milk/Creme"
+                        }
+                        ],
+        "glass": "Rocks Glass"
+
+    }

@@ -1,0 +1,19 @@
+{
+        "id": "black-russian", 
+        "name": "Black Russian",
+        "method": "Build in glass",
+         "ingredients": [
+            {
+            "amount": "50",
+            "amountUnits": "ml",
+            "ingredientName": "Vodka"
+                        },
+                       {
+            "amount": "25",
+            "amountUnits": "ml",
+            "ingredientName": "Coffee liqueur"
+                        }],
+                        
+        "glass": "Rocks Glass"
+
+    }

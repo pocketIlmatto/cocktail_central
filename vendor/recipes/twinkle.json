@@ -1,0 +1,25 @@
+  {
+        "id": "Twinkle", 
+        "name": "Twinkle",
+        "method": "Build in glass",
+         "ingredients": [
+            {
+            "amount": "50",
+            "amountUnits": "ml",
+            "ingredientName": "Vodka"
+                        },
+                       {
+            "amount": "20",
+            "amountUnits": "ml",
+            "ingredientName": "Elderflower Liqueur"
+                        },
+                       {
+            "amount": "",
+            "amountUnits": "",
+            "ingredientName": "Top with Sparkling Wine"
+                        }
+                        ],
+        "glass": "Sparkling Whisky Glass",
+        "garnish": "Lemon Twist"
+
+    }

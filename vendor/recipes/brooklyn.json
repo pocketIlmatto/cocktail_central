@@ -1,0 +1,30 @@
+{
+        "id": "Brooklyn", 
+        "name": "Brooklyn",
+        "method": "Stir in mixing glass",
+         "ingredients": [
+            {
+            "amount": "75",
+            "amountUnits": "ml",
+            "ingredientName": "Bourbon"
+                        },
+                       {
+            "amount": "10",
+            "amountUnits": "ml",
+            "ingredientName": "Maraschino liqueur"
+                        },
+                        {
+            "amount": "15",
+            "amountUnits": "ml",
+            "ingredientName": "Dry Vermouth"
+                        },
+                        {
+            "amount": "15",
+            "amountUnits": "ml",
+            "ingredientName": "Sweet Vermouth"
+                        }
+                        ],
+        "glass": "Cocktail Glass", 
+        "garnish": "Maraschino Cherry"
+
+    }

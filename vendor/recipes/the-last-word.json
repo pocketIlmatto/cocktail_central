@@ -1,0 +1,30 @@
+  {
+        "id": "the-last-word", 
+        "name": "The Last Word",
+        "method": "Shake hard and fine strain",
+         "ingredients": [
+            {
+            "amount": "25",
+            "amountUnits": "ml",
+            "ingredientName": "Dry Gin"
+                        },
+                       {
+            "amount": "25",
+            "amountUnits": "ml",
+            "ingredientName": "Green Chartreuse"
+                        },
+                       {
+            "amount": "25",
+            "amountUnits": "ml",
+            "ingredientName": "Maraschio Liqueur"
+                        },
+                       {
+            "amount": "25",
+            "amountUnits": "ml",
+            "ingredientName": "Fresh Lime Juice"
+                        }
+                        ],
+        "glass": "Cocktail Glass", 
+        "garnish": "Lime Twist"
+
+    }

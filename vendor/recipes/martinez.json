@@ -1,0 +1,30 @@
+ {
+        "id": "Martinez", 
+        "name": "Martinez",
+        "method": "Stir in mixing glass and strain",
+         "ingredients": [
+            {
+            "amount": "50",
+            "amountUnits": "ml",
+            "ingredientName": "Old Tom Gin"
+                        },
+                       {
+            "amount": "25",
+            "amountUnits": "ml",
+            "ingredientName": "Sweet Vermouth"
+                        },
+                       {
+            "amount": "5",
+            "amountUnits": "ml",
+            "ingredientName": "Maraschino Liqueur"
+                        },
+                       {
+            "amount": "1",
+            "amountUnits": "Dash",
+            "ingredientName": "Orange Bitters"
+                        }
+                        ],
+        "glass": "Cocktail Glass", 
+        "garnish": "Lemon Twist"
+
+    }

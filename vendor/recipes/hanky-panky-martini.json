@@ -1,0 +1,31 @@
+ {
+        "id": "Hanky-Panky-Martini", 
+        "name": "Hanky-Panky Martini",
+        "method": "Stir in mixing glass",
+        "Description": "Created by Ada Coleman, first Bar Manager of American Bar, Savoy Hotel",
+         "ingredients": [
+            {
+            "amount": "50",
+            "amountUnits": "ml",
+            "ingredientName": "Dry Gin"
+                        },
+                       {
+            "amount": "50",
+            "amountUnits": "ml",
+            "ingredientName": "Sweet Vermouth"
+                        },
+                       {
+            "amount": "5",
+            "amountUnits": "ml",
+            "ingredientName": "Fernet Branca"
+                        },
+                       {
+            "amount": "10",
+            "amountUnits": "ml",
+            "ingredientName": "Orange Juice"
+                        }
+                        ],
+        "glass": "Cocktail Glass", 
+        "garnish": "Orange Twist"
+
+    }

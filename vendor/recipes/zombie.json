@@ -1,0 +1,55 @@
+ {
+        "id": "zombie", 
+        "name": "Zombie",
+        "method": "Shake hard and strain",
+         "ingredients": [
+            {
+            "amount": "25",
+            "amountUnits": "ml",
+            "ingredientName": "Light Rum"
+                        },
+                       {
+            "amount": "25",
+            "amountUnits": "ml",
+            "ingredientName": "Gold Rum"
+                        },
+                       {
+            "amount": "25",
+            "amountUnits": "ml",
+            "ingredientName": "Dark Rum"
+                        },
+                       {
+            "amount": "12.5",
+            "amountUnits": "ml",
+            "ingredientName": "Apricot Brandy"
+                        },
+                       {
+            "amount": "15",
+            "amountUnits": "ml",
+            "ingredientName": "Fresh Lime Juice"
+                        },
+                       {
+            "amount": "25",
+            "amountUnits": "ml",
+            "ingredientName": "Pineapple Juice"
+                        },
+                       {
+            "amount": "5",
+            "amountUnits": "ml",
+            "ingredientName": "Grenadine Syrup"
+                        },
+                       {
+            "amount": "10",
+            "amountUnits": "ml",
+            "ingredientName": "Overproof Rum float (optional)"
+                        },
+                       {
+            "amount": "5",
+            "amountUnits": "ml",
+            "ingredientName": "Absinthe float (optional)"
+                        }
+                        ],
+        "glass": "Collins Glass",
+        "garnish": "Lime Wedge"
+
+    }

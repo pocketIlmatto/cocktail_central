@@ -1,0 +1,30 @@
+{
+        "id": "El-Diablo", 
+        "name": "El Diablo",
+        "method": "Shake first ingredients then top ginger beer",
+         "ingredients": [
+            {
+            "amount": "50",
+            "amountUnits": "ml",
+            "ingredientName": "Tequila"
+                        },
+                       {
+            "amount": "25",
+            "amountUnits": "ml",
+            "ingredientName": "Fresh Lime Juice"
+                        },
+                        {
+            "amount": "20",
+            "amountUnits": "ml",
+            "ingredientName": "Creme de Cassis"
+                        },
+                        {
+            "amount": "",
+            "amountUnits": "",
+            "ingredientName": "Top with Ginger Beer"
+                        }
+                        ],
+        "glass": "Collins Glass", 
+        "garnish": "Lime Wedge"
+
+    }

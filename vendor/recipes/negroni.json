@@ -1,0 +1,25 @@
+       {
+        "id": "negroni", 
+        "name": "Negroni",
+        "method": "Build in glass",
+         "ingredients": [
+            {
+            "amount": "25",
+            "amountUnits": "ml",
+            "ingredientName": "Dry Gin"
+                        },
+                       {
+            "amount": "25",
+            "amountUnits": "ml",
+            "ingredientName": "Sweet Vermouth"
+                        },
+                       {
+            "amount": "25",
+            "amountUnits": "ml",
+            "ingredientName": "Campari"
+                        }
+                        ],
+        "glass": "Rocks Glass",
+        "garnish": "Orange Twist"
+
+    }

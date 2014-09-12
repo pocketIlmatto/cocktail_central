@@ -1,0 +1,25 @@
+{
+        "id": "Grasshopper", 
+        "name": "Grasshopper",
+        "method": "Shake hard and fine strain",
+         "ingredients": [
+            {
+            "amount": "25",
+            "amountUnits": "ml",
+            "ingredientName": "White Creme de Cacao"
+                        },
+                       {
+            "amount": "25",
+            "amountUnits": "ml",
+            "ingredientName": "Creme de Menthe"
+                        },
+                       {
+            "amount": "25",
+            "amountUnits": "ml",
+            "ingredientName": "Milk/Creme"
+                        }
+                        ],
+        "glass": "Cocktail Glass", 
+        "garnish": "Shaved Chocolate"
+
+    }

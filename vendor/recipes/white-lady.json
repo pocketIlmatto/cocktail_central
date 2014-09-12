@@ -1,0 +1,30 @@
+  {
+        "id": "white-lady", 
+        "name": "White Lady",
+        "method": "Dry Shake (if egg), Wet Shake, Fine Strain",
+         "ingredients": [
+            {
+            "amount": "40",
+            "amountUnits": "ml",
+            "ingredientName": "Dry Gin"
+                        },
+                       {
+            "amount": "25",
+            "amountUnits": "ml",
+            "ingredientName": "Triple Sec"
+                        },
+                       {
+            "amount": "20",
+            "amountUnits": "ml",
+            "ingredientName": "Fresh Lemon Juice"
+                        },
+                       {
+            "amount": "10",
+            "amountUnits": "ml",
+            "ingredientName": "Egg White (optional)"
+                        }
+                        ],
+        "glass": "Cocktail/Coupette Glass",
+        "garnish": "Lemon Twist"
+
+    }

@@ -1,0 +1,35 @@
+		
+
+http://localhost:3000/recipes?utf8=%E2%9C%93&ingredient_list%5B%5D=Rye+Whiskey&ingredient_list%5B%5D=Dry+Vermouth&ingredient_list%5B%5D=Grand+Marnier&ingredient_list%5B%5D=Orange+Bitters&ingredient_list%5B%5D=American+Whiskey&search_type=inclusive
+
+<a href="#" class="filldetails" onclick="addFields()">Add ingredient</a>
+
+select items.id, items.name, count(ingredients.item_id) from items
+INNER JOIN ingredients ON ingredients.item_id = items.id 
+WHERE items.name NOT IN ("Lemon Juice", "Rye Whiskey", "Dry Vermouth", "Grand Marnier", "Orange Bitters", "American Whiskey", "Vodka", "Sweet Vermouth", "Tequila", "Dry Gin", "Maraschino Liqueur", "Calvados", "Old Tom Gin", "Cognac", "Angostura Bitters", "Benedictine DOM", "Coffee liqueur", "Orange Bitters (optional)")
+and ingredients.recipe_id in (Select recipe_id FROM ingredients
+INNER JOIN items ON items.id = ingredients.item_id 
+WHERE (items.name NOT IN ("Lemon Juice", "Rye Whiskey", "Dry Vermouth", "Grand Marnier", "Orange Bitters", "American Whiskey", "Vodka", "Sweet Vermouth", "Tequila", "Dry Gin", "Maraschino Liqueur", "Calvados", "Old Tom Gin", "Cognac", "Angostura Bitters", "Benedictine DOM", "Coffee liqueur", "Orange Bitters (optional)"))
+GROUP BY ingredients.recipe_id
+HAVING count(ingredients.recipe_id) <= 1) 
+GROUP BY ingredients.item_id
+ORDER BY count(ingredients.item_id)
+
+SELECT "items".* FROM "items" 
+INNER JOIN "ingredients" ON "ingredients"."item_id" = "items"."id" 
+WHERE (items.name NOT IN ('Lemon Juice') 
+and ingredients.recipe_id in (SELECT recipe_id FROM "ingredients" 
+INNER JOIN "items" ON "items"."id" = "ingredients"."item_id" 
+WHERE (items.name NOT IN ('Lemon Juice')) 
+GROUP BY ingredients.recipe_id 
+HAVING count(ingredients.recipe_id) <=1)) 
+GROUP BY ingredients.item_id 
+ORDER BY name ASC, count(ingredients.item_id) DESC LIMIT 30 OFFSET 0
+
+
+@items = Item.joins(:ingredient).where("items.name NOT IN (?) and ingredients.recipe_id in (?)", 
+					ingredient_list,
+					Ingredient.joins(:item).where("items.name NOT IN (?)", ingredient_list).group('ingredients.recipe_id').having('count(ingredients.recipe_id) > 0').select("recipe_id")).group('ingredients.item_id').order('count(ingredients.item_id) DESC')
+
+
+

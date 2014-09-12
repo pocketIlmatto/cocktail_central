@@ -1,0 +1,25 @@
+ {
+        "id": "Jack-rose", 
+        "name": "Jack Rose",
+        "method": "Shake hard and fine strain",
+         "ingredients": [
+            {
+            "amount": "50",
+            "amountUnits": "ml",
+            "ingredientName": "Calvados"
+                        },
+                       {
+            "amount": "15",
+            "amountUnits": "ml",
+            "ingredientName": "Fresh Lemon Juice"
+                        },
+                       {
+            "amount": "10",
+            "amountUnits": "ml",
+            "ingredientName": "Grenadine Syrup"
+                        }
+                        ],
+        "glass": "Cocktail Glass", 
+        "garnish": "Lemon Twist"
+
+    }

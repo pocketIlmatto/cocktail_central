@@ -1,0 +1,25 @@
+{
+        "id": "Gin-Rickey", 
+        "name": "Gin Rickey",
+        "method": "Build in glass",
+         "ingredients": [
+            {
+            "amount": "50",
+            "amountUnits": "ml",
+            "ingredientName": "Gin"
+                        },
+                       {
+            "amount": "25",
+            "amountUnits": "ml",
+            "ingredientName": "Fresh Lime Juice"
+                        },
+                       {
+            "amount": "",
+            "amountUnits": "",
+            "ingredientName": "Top with Soda"
+                        }
+                        ],
+        "glass": "Collins Glass", 
+        "garnish": "Lime Wedge"
+
+    }

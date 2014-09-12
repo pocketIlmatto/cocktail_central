@@ -1,0 +1,25 @@
+  {
+        "id": "Old-Fashioned", 
+        "name": "Old Fashioned",
+        "method": "Add ingredients slowly, stiring until ice melts and then adding more ice.",
+         "ingredients": [
+            {
+            "amount": "50",
+            "amountUnits": "ml",
+            "ingredientName": "Bourbon or Rye"
+                        },
+                       {
+            "amount": "10",
+            "amountUnits": "ml",
+            "ingredientName": "Simple Syrup"
+                        },
+                       {
+            "amount": "3",
+            "amountUnits": "Dashes",
+            "ingredientName": "Angostura Bitters"
+                        }
+                        ],
+        "glass": "Rocks Glass",
+        "garnish": "Orange Twist and Cherry"
+
+    }

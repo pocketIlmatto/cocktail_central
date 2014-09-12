@@ -1,0 +1,30 @@
+{
+        "id": "breakfast-martini", 
+        "name": "Breakfast Martini",
+        "method": "Stir in mixing glass",
+         "ingredients": [
+            {
+            "amount": "50",
+            "amountUnits": "ml",
+            "ingredientName": "Gin"
+                        },
+                       {
+            "amount": "12.5",
+            "amountUnits": "ml",
+            "ingredientName": "Triple Sec liqueur"
+                        },
+                        {
+            "amount": "12.5",
+            "amountUnits": "ml",
+            "ingredientName": "Fresh Lemon Juice"
+                        },
+                        {
+            "amount": "1",
+            "amountUnits": "spoon",
+            "ingredientName": "Orange Marmalade"
+                        }
+                        ],
+        "glass": "Cocktail Glass", 
+        "garnish": "Orange Twist"
+
+    }

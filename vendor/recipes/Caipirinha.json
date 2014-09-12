@@ -1,0 +1,25 @@
+ {
+        "id": "Caipirinha", 
+        "name": "Caipirinha",
+        "method": "Muddle in glass. Fill with crushed ice",
+         "ingredients": [
+            {
+            "amount": "50",
+            "amountUnits": "ml",
+            "ingredientName": "Cachaca"
+                        },
+                       {
+            "amount": "4",
+            "amountUnits": "wedges",
+            "ingredientName": "Lime"
+                        },
+                        {
+            "amount": "15",
+            "amountUnits": "ml",
+            "ingredientName": "Simple Syrup"
+                        }
+                        ],
+        "glass": "Rocks Glass", 
+        "garnish": "Lime Wedge"
+
+    }

@@ -1,0 +1,30 @@
+ {
+        "id": "Harvard", 
+        "name": "Harvard",
+        "method": "Stir in mixing glass",
+         "ingredients": [
+            {
+            "amount": "40",
+            "amountUnits": "ml",
+            "ingredientName": "Cognac"
+                        },
+                       {
+            "amount": "25",
+            "amountUnits": "ml",
+            "ingredientName": "Sweet Vermouth"
+                        },
+                       {
+            "amount": "2",
+            "amountUnits": "Dashes",
+            "ingredientName": "Orange Bitters (optional)"
+                        },
+                       {
+            "amount": "",
+            "amountUnits": "",
+            "ingredientName": "Splash Soda Water"
+                        }
+                        ],
+        "glass": "Cocktail Glass", 
+        "garnish": "Orange Twist"
+
+    }

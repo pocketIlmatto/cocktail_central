@@ -1,0 +1,28 @@
+[
+    {
+        "name": "Bourbon Renewal",
+        "bartender": "Jeffrey Morgenthaler",
+        "ingredients": [
+            {"name": "Bourbon"},
+            {"name": "Lemon Juice"},
+            {"name": "Creme de Cassis"},
+            {"name": "Simple Syrup"},
+            {"name": "Angostura Bitters"}
+        ],
+        "container": {"name": "Lowball"}
+    },
+    {
+        "name": "Egg Nog",
+        "bartender": "Jeffrey Morgenthaler",
+        "ingredients": [
+            {"name": "Eggs"},
+            {"name": "Sugar"},
+            {"name": "Nutmeg"},
+            {"name": "Brandy"},
+            {"name": "Spiced Rum"},
+            {"name": "Milk"},
+            {"name": "Cream"}
+        ],
+        "container": {"name": "Wine Glass"}
+    }
+]

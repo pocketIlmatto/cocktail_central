@@ -1,0 +1,29 @@
+ {
+        "id": "New-Yorker", 
+        "name": "New Yorker",
+        "method": "Shake and fine strain",
+         "ingredients": [
+            {
+            "amount": "50",
+            "amountUnits": "ml",
+            "ingredientName": "Bourbon"
+                        },
+                       {
+            "amount": "25",
+            "amountUnits": "ml",
+            "ingredientName": "Red Wine"
+                        },
+                       {
+            "amount": "12.5",
+            "amountUnits": "ml",
+            "ingredientName": "Lemon Juice"
+                        },
+                       {
+            "amount": "12.5",
+            "amountUnits": "ml",
+            "ingredientName": "Simple Syrup"
+                        }
+                        ],
+        "glass": "Cocktail Glass"
+
+    }

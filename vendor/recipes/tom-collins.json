@@ -1,0 +1,30 @@
+ {
+        "id": "tom-collins", 
+        "name": "Tom Collins",
+        "method": "Build in glass",
+         "ingredients": [
+            {
+            "amount": "50",
+            "amountUnits": "ml",
+            "ingredientName": "Dry Gin"
+                        },
+                       {
+            "amount": "25",
+            "amountUnits": "ml",
+            "ingredientName": "Fresh Lemon Juice"
+                        },
+                       {
+            "amount": "15",
+            "amountUnits": "ml",
+            "ingredientName": "Simple Syrup"
+                        },
+                       {
+            "amount": "",
+            "amountUnits": "",
+            "ingredientName": "Top with Soda Water"
+                        }
+                        ],
+        "glass": "Collins Glass",
+        "garnish": "Lemon Slice"
+
+    }

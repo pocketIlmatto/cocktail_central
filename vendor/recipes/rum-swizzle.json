@@ -1,0 +1,25 @@
+  {
+        "id": "Rum-Swizzle", 
+        "name": "Rum Swizzle",
+        "method": "Fill glass with crushed ice, add ingredients, stir hard with swizzle stick",
+         "ingredients": [
+            {
+            "amount": "50",
+            "amountUnits": "ml",
+            "ingredientName": "Rum"
+                        },
+                       {
+            "amount": "25",
+            "amountUnits": "ml",
+            "ingredientName": "Fresh Lime Juice"
+                        },
+                       {
+            "amount": "15",
+            "amountUnits": "ml",
+            "ingredientName": "Simple Syrup"
+                        }
+                        ],
+        "glass": "Collins Glass",
+        "garnish": "Lime wedge and mint leaf"
+
+    }

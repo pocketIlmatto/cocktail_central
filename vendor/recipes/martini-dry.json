@@ -1,0 +1,26 @@
+  {
+        "id": "Martini-dry", 
+        "name": "Martini (Dry)",
+        "method": "Stir in mixing glass and strain",
+        "Description": "Gibson: Pickled Onion garnish",
+         "ingredients": [
+            {
+            "amount": "50",
+            "amountUnits": "ml",
+            "ingredientName": "Dry Gin"
+                        },
+                       {
+            "amount": "10",
+            "amountUnits": "ml",
+            "ingredientName": "Dry Vermouth"
+                        },
+                       {
+            "amount": "1",
+            "amountUnits": "Dash",
+            "ingredientName": "Orange Bitters (optional)"
+                        }
+                        ],
+        "glass": "Cocktail Glass", 
+        "garnish": "Lemon Twist"
+
+    }

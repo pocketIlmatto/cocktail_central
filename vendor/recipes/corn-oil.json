@@ -1,0 +1,25 @@
+{
+        "id": "Corn-oil", 
+        "name": "Corn & Oil",
+        "method": "Stir and strain into ice filled glass",
+         "ingredients": [
+            {
+            "amount": "50",
+            "amountUnits": "ml",
+            "ingredientName": "Gold Rum"
+                        },
+                       {
+            "amount": "10",
+            "amountUnits": "ml",
+            "ingredientName": "Velvet Falernum"
+                        },
+                        {
+            "amount": "2",
+            "amountUnits": "Dashes",
+            "ingredientName": "Angostura Bitters"
+                        }
+                        ],
+        "glass": "Rocks Glass", 
+        "garnish": "Lime Wedge"
+
+    }

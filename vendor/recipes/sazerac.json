@@ -1,0 +1,25 @@
+   {
+        "id": "Sazerac", 
+        "name": "Sazerac",
+        "method": "Stir in mixing glass, strain into Absinthe rinsed glass (no ice)",
+         "ingredients": [
+            {
+            "amount": "60",
+            "amountUnits": "ml",
+            "ingredientName": "Rye Whiskey"
+                        },
+                       {
+            "amount": "10",
+            "amountUnits": "ml",
+            "ingredientName": "Simple Syrup"
+                        },
+                       {
+            "amount": "1",
+            "amountUnits": "Dash",
+            "ingredientName": "Peychard Bitters"
+                        }
+                        ],
+        "glass": "Absinthe rinsed Rocks Glass",
+        "garnish": "Lemon Twist"
+
+    }

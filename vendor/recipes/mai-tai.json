@@ -1,0 +1,36 @@
+ {
+        "id": "Mai-Tai", 
+        "name": "Mai Tai",
+        "method": "Shake hard and strain over crushed ice",
+        "Description": "Created 1944 by Trader Vic",
+         "ingredients": [
+            {
+            "amount": "25",
+            "amountUnits": "ml",
+            "ingredientName": "Light Rum (Jamaican)"
+                        },
+                       {
+            "amount": "25",
+            "amountUnits": "ml",
+            "ingredientName": "Dark Rum (Jamaican)"
+                        },
+                       {
+            "amount": "25",
+            "amountUnits": "ml",
+            "ingredientName": "Fresh Lime Juice"
+                        },
+                       {
+            "amount": "15",
+            "amountUnits": "ml",
+            "ingredientName": "Triple Sec"
+                        },
+                       {
+            "amount": "10",
+            "amountUnits": "ml",
+            "ingredientName": "Orgeat Syrup"
+                        }
+                        ],
+        "glass": "Rocks Glass", 
+        "garnish": "Lime Wedge and Cherry"
+
+    }

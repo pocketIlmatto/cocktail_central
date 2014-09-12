@@ -1,0 +1,30 @@
+   {
+        "id": "Moscow-Mule", 
+        "name": "Moscow Mule",
+        "method": "Build in glass",
+         "ingredients": [
+            {
+            "amount": "50",
+            "amountUnits": "ml",
+            "ingredientName": "Vodka"
+                        },
+                       {
+            "amount": "25",
+            "amountUnits": "ml",
+            "ingredientName": "Fresh Lime Juice"
+                        },
+                       {
+            "amount": "",
+            "amountUnits": "",
+            "ingredientName": "Top with Ginger Beer"
+                        },
+                       {
+            "amount": "1",
+            "amountUnits": "Dash",
+            "ingredientName": "Angostura Bitters (optional)"
+                        }
+                        ],
+        "glass": "Collins Glass",
+        "garnish": "Lime Wedge"
+
+    }

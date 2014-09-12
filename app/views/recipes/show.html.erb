@@ -1,0 +1,18 @@
+<% provide(:title, @recipe.name) %>
+<div class="row">
+  
+<div class="span8">
+    <% if @recipe.ingredients.any? %>
+      <h1><%= cocktail_image %>
+        <%= @recipe.name %>  </h1>
+      
+      <ol class="ingredients">
+        
+        <%= render @ingredients %>
+      </ol>
+      <%= will_paginate @ingredients %>
+    <% end %>
+  </div>
+
+</div>
+

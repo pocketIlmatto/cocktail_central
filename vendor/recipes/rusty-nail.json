@@ -1,0 +1,20 @@
+ {
+        "id": "Rusty-Nail", 
+        "name": "Rusty Nail",
+        "method": "Stir in glass",
+         "ingredients": [
+            {
+            "amount": "50",
+            "amountUnits": "ml",
+            "ingredientName": "Scotch Whisky"
+                        },
+                       {
+            "amount": "25",
+            "amountUnits": "ml",
+            "ingredientName": "Drambuie Liqueur"
+                        }
+                        ],
+        "glass": "Rocks Glass",
+        "garnish": "Lemon Twist"
+
+    }

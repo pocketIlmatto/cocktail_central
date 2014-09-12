@@ -1,0 +1,25 @@
+  {
+        "id": "St-Germain-Cocktail", 
+        "name": "St-Germain Cocktail",
+        "method": "Build in glass",
+         "ingredients": [
+            {
+            "amount": "40",
+            "amountUnits": "ml",
+            "ingredientName": "St-Germain elderflower liqueur"
+                        },
+                       {
+            "amount": "40",
+            "amountUnits": "ml",
+            "ingredientName": "Sauvignon Blanc Wine"
+                        },
+                       {
+            "amount": "",
+            "amountUnits": "",
+            "ingredientName": "Top with Soda Water"
+                        }
+                        ],
+        "glass": "Collins Glass",
+        "garnish": "Lime Slice"
+
+    }

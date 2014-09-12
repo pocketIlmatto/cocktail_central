@@ -1,0 +1,30 @@
+{
+        "id": "bramble", 
+        "name": "Bramble",
+        "method": "Build in glass, drizzle Crème de Mure",
+         "ingredients": [
+            {
+            "amount": "40",
+            "amountUnits": "ml",
+            "ingredientName": "London Dry Gin"
+                        },
+                       {
+            "amount": "25",
+            "amountUnits": "ml",
+            "ingredientName": "Fresh Lemon Juice"
+                        },
+                        {
+            "amount": "15",
+            "amountUnits": "ml",
+            "ingredientName": "Simple Syrup"
+                        },
+                        {
+            "amount": "15",
+            "amountUnits": "ml",
+            "ingredientName": "Crème de Mure"
+                        } 
+                        ],
+        "glass": "Rocks Glass", 
+        "garnish": "Lemon slice and raspberry"
+
+    }

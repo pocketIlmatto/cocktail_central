@@ -1,0 +1,34 @@
+ {
+        "id": "Southside", 
+        "name": "Southside",
+        "method": "Shake hard and fine strain",
+         "ingredients": [
+            {
+            "amount": "50",
+            "amountUnits": "ml",
+            "ingredientName": "Dry Gin"
+                        },
+                       {
+            "amount": "25",
+            "amountUnits": "ml",
+            "ingredientName": "Fresh Lemon Juice"
+                        },
+                       {
+            "amount": "15",
+            "amountUnits": "ml",
+            "ingredientName": "Simple Syrup"
+                        },
+                       {
+            "amount": "",
+            "amountUnits": "",
+            "ingredientName": "Small handful of Mint"
+                        },
+                       {
+            "amount": "1",
+            "amountUnits": "Dash",
+            "ingredientName": "Angostura Bitters (optional)"
+                        }
+                        ],
+        "glass": "Cocktail Glass"
+
+    }

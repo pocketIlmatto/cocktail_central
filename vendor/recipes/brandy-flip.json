@@ -1,0 +1,30 @@
+{
+        "id": "brandy-flip", 
+        "name": "Brandy Flip",
+        "method": "Shake hard and fine strain",
+         "ingredients": [
+            {
+            "amount": "50",
+            "amountUnits": "ml",
+            "ingredientName": "Brandy"
+                        },
+                       {
+            "amount": "20",
+            "amountUnits": "ml",
+            "ingredientName": "Simple Syrup"
+                        },
+                        {
+            "amount": "10",
+            "amountUnits": "ml",
+            "ingredientName": "Creme"
+                        },
+                        {
+            "amount": "1",
+            "amountUnits": "Whole",
+            "ingredientName": "Egg"
+                        }
+                        ],
+        "glass": "Collins Glass", 
+        "garnish": "Grated Nutmeg"
+
+    }

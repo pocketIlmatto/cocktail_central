@@ -1,0 +1,29 @@
+ {
+        "id": "El-Floridita-no-1", 
+        "name": "El Floridita no.1",
+        "method": "Shake hard and fine strain",
+         "ingredients": [
+            {
+            "amount": "50",
+            "amountUnits": "ml",
+            "ingredientName": "Rum"
+                        },
+                       {
+            "amount": "25",
+            "amountUnits": "ml",
+            "ingredientName": "Fresh Lime Juice"
+                        },
+                        {
+            "amount": "15",
+            "amountUnits": "ml",
+            "ingredientName": "Simple Syrup"
+                        },
+                        {
+            "amount": "10",
+            "amountUnits": "ml",
+            "ingredientName": "Maraschino liqueur"
+                        }
+                        ],
+        "glass": "Cocktail Glass"
+
+    }

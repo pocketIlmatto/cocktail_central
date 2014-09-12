@@ -1,0 +1,30 @@
+ {
+        "id": "Nuclear-Daiquiri", 
+        "name": "Nuclear Daiquiri",
+        "method": "Shake hard and fine strain",
+         "ingredients": [
+            {
+            "amount": "25",
+            "amountUnits": "ml",
+            "ingredientName": "Overproof Rum"
+                        },
+                       {
+            "amount": "20",
+            "amountUnits": "ml",
+            "ingredientName": "Green Chartreuse"
+                        },
+                       {
+            "amount": "25",
+            "amountUnits": "ml",
+            "ingredientName": "Fresh Lime Juice"
+                        },
+                       {
+            "amount": "10",
+            "amountUnits": "ml",
+            "ingredientName": "Velvet Falernum"
+                        }
+                        ],
+        "glass": "Cocktail Glass",
+        "garnish": "Lime Wedge"
+
+    }

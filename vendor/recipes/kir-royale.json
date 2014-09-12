@@ -1,0 +1,19 @@
+ {
+        "id": "Kir-Royale", 
+        "name": "Kir Royale",
+        "method": "Build in glass",
+         "ingredients": [
+            {
+            "amount": "10",
+            "amountUnits": "ml",
+            "ingredientName": "Crème de Cassis"
+                        },
+                       {
+            "amount": "",
+            "amountUnits": "",
+            "ingredientName": "Top with Sparkling Wine"
+                        }
+                        ],
+        "glass": "Sparkling Wine Glass"
+
+    }

@@ -1,0 +1,34 @@
+    {
+        "id": "Penicillian", 
+        "name": "Penicillian",
+        "method": "Shake Hard and Fine Strain",
+         "ingredients": [
+            {
+            "amount": "50",
+            "amountUnits": "ml",
+            "ingredientName": "Scotch Whisky"
+                        },
+                       {
+            "amount": "10",
+            "amountUnits": "ml",
+            "ingredientName": "Islay Whisky"
+                        },
+                       {
+            "amount": "25",
+            "amountUnits": "ml",
+            "ingredientName": "Fresh Lemon Juice"
+                        },
+                       {
+            "amount": "10",
+            "amountUnits": "ml",
+            "ingredientName": "Honey Syrup"
+                        },
+                       {
+            "amount": "5",
+            "amountUnits": "ml",
+            "ingredientName": "Ginger Juice"
+                        }
+                        ],
+        "glass": "Rocks Glass"
+
+    }

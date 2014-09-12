@@ -1,0 +1,31 @@
+{
+        "id": "blood-and-sand", 
+        "name": "Blood and Sand",
+        "method": "Shake and fine strain",
+         "ingredients": [
+            {
+            "amount": "20",
+            "amountUnits": "ml",
+            "ingredientName": "Scotch Whisky"
+                        },
+                       {
+            "amount": "20",
+            "amountUnits": "ml",
+            "ingredientName": "Cherry Brandy"
+                        },
+                        {
+            "amount": "20",
+            "amountUnits": "ml",
+            "ingredientName": "Sweet Vermouth"
+                        },
+                        {
+            "amount": "20",
+            "amountUnits": "ml",
+            "ingredientName": "Orange Juice"
+                        }
+                          
+                        ],
+        "glass": "Cocktail Glass", 
+        "garnish": "Orange Twist"
+
+    }

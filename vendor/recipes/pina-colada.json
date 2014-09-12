@@ -1,0 +1,40 @@
+     {
+        "id": "Pina-Colada", 
+        "name": "Pina Colada",
+        "method": "Shake Hard and Strain",
+         "ingredients": [
+            {
+            "amount": "25",
+            "amountUnits": "ml",
+            "ingredientName": "Light Rum"
+                        },
+                       {
+            "amount": "25",
+            "amountUnits": "ml",
+            "ingredientName": "Coconut Rum"
+                        },
+                       {
+            "amount": "10",
+            "amountUnits": "ml",
+            "ingredientName": "Fresh Lime Juice"
+                        },
+                       {
+            "amount": "15",
+            "amountUnits": "ml",
+            "ingredientName": "Coconut Creme"
+                        },
+                       {
+            "amount": "10",
+            "amountUnits": "ml",
+            "ingredientName": "Creme"
+                        },
+                       {
+            "amount": "50",
+            "amountUnits": "ml",
+            "ingredientName": "Pineapple Juice"
+                        }
+                        ],
+        "glass": "Collins Glass",
+        "garnish": "Lime wedge and Pineapple slice"
+
+    }

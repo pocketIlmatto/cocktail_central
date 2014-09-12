@@ -1,0 +1,36 @@
+{
+        "id": "Cosmopolitan", 
+        "name": "Cosmopolitan",
+        "method": "Shake hard and fine strain",
+        "Description": "-Lemon Vodka, +Tequila = 'Rude Cosmo'",
+         "ingredients": [
+            {
+            "amount": "40",
+            "amountUnits": "ml",
+            "ingredientName": "Lemon Vodka"
+                        },
+                       {
+            "amount": "20",
+            "amountUnits": "ml",
+            "ingredientName": "Triple Sec"
+                        },
+                        {
+            "amount": "20",
+            "amountUnits": "ml",
+            "ingredientName": "Fresh Lime Juice"
+                        },
+                        {
+            "amount": "30",
+            "amountUnits": "ml",
+            "ingredientName": "Cranberry Juice"
+                        },
+                        {
+            "amount": "1",
+            "amountUnits": "Dash",
+            "ingredientName": "Orange Bitters (optional)"
+                        }
+                        ],
+        "glass": "Cocktail Glass", 
+        "garnish": "Orange Twist"
+
+    }

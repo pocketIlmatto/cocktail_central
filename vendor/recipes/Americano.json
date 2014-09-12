@@ -1,0 +1,26 @@
+{
+        "id": "Americano", 
+        "name": "Americano", 
+        "method": "Build in glass",
+         "ingredients": [
+            {
+            "amount": "25",
+            "amountUnits": "ml",
+            "ingredientName": "Italian Sweet Vermouth"
+                        },
+                       {
+            "amount": "25",
+            "amountUnits": "ml",
+            "ingredientName": "Campari"
+                        }
+                        ,
+                       {
+            "amount": "50",
+            "amountUnits": "ml",
+            "ingredientName": "Soda Water"
+                        }  
+                        ],
+        "glass": "Old Fashioned Glass", 
+        "garnish": "Lemon zest and Orange Slice"
+
+    }

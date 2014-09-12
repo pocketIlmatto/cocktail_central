@@ -1,0 +1,18 @@
+<h1>Pimp my bar!</h1>
+
+
+<%= form_tag("/items", method: "get") do %>
+<section>
+<div id = "initRow">
+  <%= label_tag(:search_ingredient, "Ingredients:") %>
+  <input type="textbox" name="ingredient_list[]" >
+  
+</div>
+</section>
+<button type="button" class="filldetails" onclick="addFields()">Add ingredient</button>
+
+<br/>
+
+  <%= submit_tag "Pimp my bar!", :name => nil %>
+<% end %>
+

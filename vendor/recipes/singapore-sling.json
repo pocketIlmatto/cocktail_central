@@ -1,0 +1,40 @@
+  {
+        "id": "Singapore-Sling", 
+        "name": "Singapore Sling",
+        "method": "Shake first ingredients, top with soda, drizzle Cherry Brandy on top",
+         "ingredients": [
+            {
+            "amount": "50",
+            "amountUnits": "ml",
+            "ingredientName": "Dry Gin"
+                        },
+                       {
+            "amount": "25",
+            "amountUnits": "ml",
+            "ingredientName": "Fresh Lemon Juice"
+                        },
+                       {
+            "amount": "15",
+            "amountUnits": "ml",
+            "ingredientName": "Simple Syrup"
+                        },
+                       {
+            "amount": "10",
+            "amountUnits": "ml",
+            "ingredientName": "Cherry Brandy"
+                        },
+                       {
+            "amount": "10",
+            "amountUnits": "ml",
+            "ingredientName": "Benedictine DOM"
+                        },
+                       {
+            "amount": "1",
+            "amountUnits": "Dash",
+            "ingredientName": "Angostura Bitters"
+                        }
+                        ],
+        "glass": "Collins/Sling Glass",
+        "garnish": "Lemon Slice and Cherry"
+
+    }

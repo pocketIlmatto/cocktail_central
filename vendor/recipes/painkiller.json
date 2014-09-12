@@ -1,0 +1,30 @@
+  {
+        "id": "Painkiller", 
+        "name": "Painkiller",
+        "method": "Shake hard and strain",
+         "ingredients": [
+            {
+            "amount": "50",
+            "amountUnits": "ml",
+            "ingredientName": "Pussers Navy Rum"
+                        },
+                       {
+            "amount": "75",
+            "amountUnits": "ml",
+            "ingredientName": "Pineapple Juice"
+                        },
+                       {
+            "amount": "25",
+            "amountUnits": "ml",
+            "ingredientName": "Orange Juice"
+                        },
+                       {
+            "amount": "20",
+            "amountUnits": "ml",
+            "ingredientName": "Coconut Creme"
+                        }
+                        ],
+        "glass": "Collins Glass",
+        "garnish": "Grated Nutmeg"
+
+    }

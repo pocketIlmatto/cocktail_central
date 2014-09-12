@@ -1,0 +1,29 @@
+   {  "id": "Mint-Julep", 
+        "name": "Mint Julep",
+        "method": "Lightly muddle ingredients except Bourbon in mixing glass. Strain into glass half filled with crushed ice, add Bourbon, churn and refill with ice until full",
+         "ingredients": [
+            {
+            "amount": "50",
+            "amountUnits": "ml",
+            "ingredientName": "Bourbon"
+                        },
+                       {
+            "amount": "10-12",
+            "amountUnits": "",
+            "ingredientName": "Fresh Mint Leafs"
+                        },
+                       {
+            "amount": "15",
+            "amountUnits": "ml",
+            "ingredientName": "Simple Syrup"
+                        },
+                       {
+            "amount": "3",
+            "amountUnits": "Dashes",
+            "ingredientName": "Angostura Bitters"
+                        }
+                        ],
+        "glass": "Collins Glass",
+        "garnish": "Mint Sprig"
+
+    }

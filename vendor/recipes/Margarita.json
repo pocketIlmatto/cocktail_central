@@ -1,0 +1,25 @@
+{
+        "id": "Margarita", 
+        "name": "Margarita",
+        "method": "Shake hard and fine strain",
+         "ingredients": [
+            {
+            "amount": "40",
+            "amountUnits": "ml",
+            "ingredientName": "Tequila"
+                        },
+                       {
+            "amount": "25",
+            "amountUnits": "ml",
+            "ingredientName": "Triple Sec"
+                        },
+                       {
+            "amount": "20",
+            "amountUnits": "ml",
+            "ingredientName": "Fresh Lime Juice"
+                        }
+                        ],
+        "glass": "Salted rim Cocktail Glass", 
+        "garnish": "Lime Wedge"
+
+    }

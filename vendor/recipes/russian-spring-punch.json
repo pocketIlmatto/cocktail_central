@@ -1,0 +1,35 @@
+  {
+        "id": "Russian-Spring-Punch", 
+        "name": "Russian Spring Punch",
+        "method": "Build in glass",
+         "ingredients": [
+            {
+            "amount": "50",
+            "amountUnits": "ml",
+            "ingredientName": "Vodka"
+                        },
+                       {
+            "amount": "25",
+            "amountUnits": "ml",
+            "ingredientName": "Fresh Lemon Juice"
+                        },
+                       {
+            "amount": "15",
+            "amountUnits": "ml",
+            "ingredientName": "Simple Syrup"
+                        },
+                       {
+            "amount": "15",
+            "amountUnits": "ml",
+            "ingredientName": "Creme de Cassis"
+                        },
+                       {
+            "amount": "",
+            "amountUnits": "",
+            "ingredientName": "Top with Sparkling Wine"
+                        }
+                        ],
+        "glass": "Collins Glass",
+        "garnish": "Lemon wedge and raspberries"
+
+    }

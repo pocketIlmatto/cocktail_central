@@ -1,0 +1,40 @@
+{
+        "id": "Fish-House-Punch", 
+        "name": "Fish House Punch",
+        "method": "Shake hard and fine strain",
+         "ingredients": [
+            {
+            "amount": "25",
+            "amountUnits": "ml",
+            "ingredientName": "Brandy"
+                        },
+                       {
+            "amount": "25",
+            "amountUnits": "ml",
+            "ingredientName": "Gold Rum"
+                        },
+                        {
+            "amount": "20",
+            "amountUnits": "ml",
+            "ingredientName": "Peach Liqueur"
+                        },
+                        {
+            "amount": "20",
+            "amountUnits": "ml",
+            "ingredientName": "Lemon Juice"
+                        },
+                        {
+            "amount": "15",
+            "amountUnits": "ml",
+            "ingredientName": "Simple Syrup"
+                        },
+                        {
+            "amount": "",
+            "amountUnits": "",
+            "ingredientName": "Top with Soda"
+                        }
+                        ],
+        "glass": "Collins Glass", 
+        "garnish": "Grated Nutmeg and Lemon Slice"
+
+    }

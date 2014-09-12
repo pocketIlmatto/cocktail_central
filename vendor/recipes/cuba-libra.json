@@ -1,0 +1,26 @@
+ {
+        "id": "Cuba-Libra", 
+        "name": "Cuba Libra",
+        "method": "Build in glass",
+        "Description": "-Coke, +Ginger Ale = 'Fidel Castro'",
+         "ingredients": [
+            {
+            "amount": "50",
+            "amountUnits": "ml",
+            "ingredientName": "Cuban Rum"
+                        },
+                       {
+            "amount": "15",
+            "amountUnits": "ml",
+            "ingredientName": "Fresh Lime Juice"
+                        },
+                        {
+            "amount": "",
+            "amountUnits": "",
+            "ingredientName": "Top with Coca Cola"
+                        }
+                        ],
+        "glass": "Collins Glass", 
+        "garnish": "Lime Wedge"
+
+    }

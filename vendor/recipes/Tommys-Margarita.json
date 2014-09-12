@@ -1,0 +1,25 @@
+ {
+        "id": "Tommys-Margarita", 
+        "name": "Tommys Margarita",
+        "method": "Shake hard and fine strain",
+         "ingredients": [
+            {
+            "amount": "50",
+            "amountUnits": "ml",
+            "ingredientName": "Tequila"
+                        },
+                       {
+            "amount": "25",
+            "amountUnits": "ml",
+            "ingredientName": "Fresh Lime Juice"
+                        },
+                       {
+            "amount": "15",
+            "amountUnits": "ml",
+            "ingredientName": "Agave Syrup"
+                        }
+                        ],
+        "glass": "Cocktail Glass",
+        "garnish": "Lime Wedge"
+
+    }

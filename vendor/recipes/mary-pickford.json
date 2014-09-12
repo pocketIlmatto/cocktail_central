@@ -1,0 +1,29 @@
+{
+        "id": "Mary-Pickford", 
+        "name": "Mary Pickford",
+        "method": "Shake hard and fine strain",
+         "ingredients": [
+            {
+            "amount": "50",
+            "amountUnits": "ml",
+            "ingredientName": "White Rum"
+                        },
+                       {
+            "amount": "25",
+            "amountUnits": "ml",
+            "ingredientName": "Pineapple Juice"
+                        },
+                       {
+            "amount": "5",
+            "amountUnits": "ml",
+            "ingredientName": "Maraschino Liqueur"
+                        },
+                       {
+            "amount": "5",
+            "amountUnits": "ml",
+            "ingredientName": "Grenadine Syrup"
+                        }
+                        ],
+        "glass": "Cocktail Glass" 
+
+    }

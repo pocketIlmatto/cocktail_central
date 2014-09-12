@@ -1,0 +1,46 @@
+{
+        "id": "bloody-mary", 
+        "name": "Bloody Mary",
+        "Description": "Red Snapper: -vodka +gin Bloody Caesar: -tomato juice +Clomato juice",
+        "method": "Roll ingredients, strain into glass",
+         "ingredients": [
+            {
+            "amount": "50",
+            "amountUnits": "ml",
+            "ingredientName": "Vodka"
+                        },
+                       {
+            "amount": "20",
+            "amountUnits": "ml",
+            "ingredientName": "Fresh Lemon Juice"
+                        },
+                        {
+            "amount": "Pinch",
+            "amountUnits": "",
+            "ingredientName": "Black Pepper"
+                        },
+                        {
+            "amount": "Pinch",
+            "amountUnits": "",
+            "ingredientName": "Celery Salt"
+                        },
+                        {
+            "amount": "(To taste)",
+            "amountUnits": "",
+            "ingredientName": "Tobasco"
+                        },
+                        {
+            "amount": "(To taste)",
+            "amountUnits": "",
+            "ingredientName": "Worcestershire sauce"
+                        },
+                        {
+            "amount": "",
+            "amountUnits": "",
+            "ingredientName": "Tomato Juice"
+                        }
+                        ],
+        "glass": "Collins Glass (Salt/Pepper Rim)", 
+        "garnish": "Celery Stick, Lemon Wedge"
+
+    }
