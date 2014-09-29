@@ -3,7 +3,7 @@ class RecipesController < ApplicationController
   helper_method :sort_column, :sort_direction
 
   def new
-    @recipe = Recipe.new()
+    @recipe = Recipe.new
   end
 
   def show
@@ -12,15 +12,15 @@ class RecipesController < ApplicationController
   end
 
   def index
+    #@recipes = Recipe.all.paginate(page: params[:page])
     @recipes = filter_by_ingredients().paginate(page: params[:page]) 
       
   end
 
   def create
 
-    @item = Item.find_or_initialize_by(name: recipe_params['name'])
-    @item.save
-    @recipe = @item.build_recipe(recipe_params)
+    #TODO 
+    @recipe = Recipe.new
 
     respond_to do |format|
       if @recipe.save
@@ -35,8 +35,9 @@ class RecipesController < ApplicationController
   end
 
   def edit
+    #TODO
     @recipe = Recipe.find(params[:id])
-    @ingredients = @recipe.ingredients.paginate(page: params[:page])    
+    #@recipe_ingredients = @recipe.ingredients.paginate(page: params[:page])    
   end
 
   def update
@@ -73,7 +74,7 @@ class RecipesController < ApplicationController
       ingredient_list = params[:ingredient_list]
       
       #filters by a single ingredient
-      if !params[:search_ingredient].nil? #&& @item.nil?
+      if !params[:search_ingredient].nil? 
         @recipes = filter_recipes_by_ingredient(params[:search_ingredient])   
 
       #filters by a list of ingredients

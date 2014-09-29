@@ -3,7 +3,7 @@
 namespace :export do
 
   desc "Parses JSON files into a seeds.rb way."
-  task :seeds_format => :environment do
+  task :create_seeds => :environment do
     #Open each JSON file
     require 'rubygems'
     require 'json'
@@ -25,12 +25,8 @@ namespace :export do
 
 
         if recipe.has_key?("name")
-          puts "@item = Item.find_or_initialize_by(name: \"#{@name.downcase}\")"
-          puts "@item.display_name = \"#{@name}\""
-          puts "@item.save"
-
             
-          puts "@recipe = @item.build_recipe(name: \"#{@name}\")"
+          puts "@recipe = Recipe.find_or_initialize_by(name: \"#{@name}\")"
           puts "@recipe.save"
 
           ingredientList = recipe['ingredients']
@@ -47,9 +43,7 @@ namespace :export do
       JSON.parse(cocktailShakerFile1).each do |x|
         if x.has_key?("name")
           @name = x['name']
-          puts "@item = Item.create(name: \"#{@name}\", display_name: \"#{@name}\")"
-          puts "@item.save"
-          puts "@recipe = @item.build_recipe(name: \"#{@name}\")"
+          puts "@recipe = Recipe.find_or_initialize_by(name: \"#{@name}\")"
           puts "@recipe.save"
 
           ingredientList = x['ingredients']
@@ -93,35 +87,18 @@ namespace :export do
           end
 
           #TODO Need some validation here, but skipping it for now        
-          puts "@rawitem = Item.find_or_initialize_by(name: \"#{@ingredientName.downcase}\")"
-          puts "@rawitem.display_name = \"#{@ingredientName}\""
-          puts "@rawitem.save"
+          puts "@ingredient = Ingredient.find_or_initialize_by(name: \"#{@ingredientName.downcase}\")"
+          puts "@ingredient.display_name = \"#{@ingredientName}\""
+          puts "@ingredient.save"
 
           #TODO item creation should be create or update here
           if includeAmounts
-            puts "@ingredient = @rawitem.ingredients.build(uom: \"#{@amountUnits}\", qty: \"#{@amount}\")"  
+            puts "@recipe_ingredient = @ingredient.recipe_ingredients.build(uom: \"#{@amountUnits}\", qty: \"#{@amount}\")"  
           else
-            puts "@ingredient = @rawitem.ingredients.build(uom: \"#{@amountUnits}\", qty: \"1\")"          
+            puts "@recipe_ingredient = @ingredient.recipe_ingredients.build(uom: \"#{@amountUnits}\", qty: \"1\")"          
           end
-          puts "@ingredient.save"
-          puts "@ingredient.update_attribute(:recipe_id, @recipe.id)"
-
-          #Add test ingredient to some random number of recipes
-          if addTest 
-            puts "@rawitem = Item.find_or_initialize_by(name: \"god's water\" , display_name: \"God's water\")"
-            puts "@rawitem.save"
-
-            #TODO item creation should be create or update here
-            if includeAmounts
-              puts "@ingredient = @rawitem.ingredients.build(uom: \"#{@amountUnits}\", qty: \"#{@amount}\")"
-            else
-              puts "@ingredient = @rawitem.ingredients.build(uom: \"#{@amountUnits}\", qty: \"1\")"          
-            end
-            
-            puts "@ingredient.save"
-            puts "@ingredient.update_attribute(:recipe_id, @recipe.id)"
-            addTest = false
-          end
+          puts "@recipe_ingredient.save"
+          puts "@recipe_ingredient.update_attribute(:recipe_id, @recipe.id)"
         end
 
         if value.is_a?(Hash) || value.is_a?(Array)

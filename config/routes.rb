@@ -1,9 +1,9 @@
 Cocktail_Central::Application.routes.draw do
 
-  resources :items , only: [:index, :show]
+  resources :ingredients , only: [:index, :show]
 
   resources :recipes, only: [:index, :show] do
-    resources :ingredients, only: [:destroy]
+    resources :recipes_ingredients, only: [:destroy]
   end
 
   root  'static_pages#home'

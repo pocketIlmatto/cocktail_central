@@ -11,32 +11,31 @@ module RecipesHelper
 		#inner join items on ingredients.item_id = items.id
 		#where items.name = "Angostura Bitters"
   	def filter_recipes_by_ingredient (ingredient_name = "")
-  		@recipes = Recipe.joins(ingredients: :item).where(items: { id: ingredient_name })	  	
+  		#@recipes = Recipe.all
+  		@recipes = Recipe.joins(:recipe_ingredients).where(recipe_ingredients: { ingredient_id: ingredient_name })	  	
 	end
 
 	def filter_recipes_by_ingredient_list (ingredient_list = [])		
+		#TODO refactor
 		#ingredient_list = ["Rye Whiskey", "Dry Vermouth", "Grand Marnier", "Orange Bitters", "American Whiskey"]
-		@recipes = Recipe.joins(:item).where("recipes.id NOT IN (?)",
-			Ingredient.joins(:item).where("items.name NOT IN (?)", 
+		@recipes = Recipe.select("DISTINCT recipes.*").joins(:recipe_ingredients).where("recipes.id NOT IN (?)",
+			RecipeIngredient.joins(:ingredient).where("ingredients.name NOT IN (?)", 
 				ingredient_list.map(&:downcase)).select("recipe_id"))		
 	end
 
 	def filter_recipes_by_ingredient_list_inclusive (ingredient_list = [])		
+		#TODO refactor
 		#ingredient_list = ["Rye Whiskey", "Dry Vermouth", "Grand Marnier", "Orange Bitters", "American Whiskey"]
-		@recipes = Recipe.select("DISTINCT recipes.*").joins(ingredients: :item).where("items.name IN (?)", 
+		@recipes = Recipe.select("DISTINCT recipes.*").joins(recipe_ingredients: :ingredient).where("ingredients.name IN (?)", 
 				ingredient_list.map(&:downcase))		
 	end
 
 	def items_by_ingredient_list (ingredient_list = [])
-		@items = Item.where("items.name IN (?)",
+		@ingredients = Ingredient.where("ingredients.name IN (?)",
 				ingredient_list.map(&:downcase))		
 	end
 
-	def random_ingredient ()
-  		offset = rand(Ingredient.count)
-		rand_record = Ingredient.first(:offset => offset)
-		@item = Item.find(rand_record.item_id)	
-	end
+	
 end
 
 #["Lemon Juice", "Simple Syrup", "Egg white (optional)", "Angostura Bitters (optional)", "American Whiskey"])

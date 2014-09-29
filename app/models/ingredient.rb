@@ -11,8 +11,8 @@
 
 class Ingredient < ActiveRecord::Base
 	before_save { self.name = name.downcase }
-	
-	has_many :recipes, :through => :recipes_ingredients
+	has_many :recipe_ingredients 
+	has_many :recipes, :through => :recipe_ingredients
 	default_scope -> { order('name ASC') }
 
 	def ingredient_name
