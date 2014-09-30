@@ -33,3 +33,26 @@ ORDER BY name ASC, count(ingredients.item_id) DESC LIMIT 30 OFFSET 0
 
 
 
+<!-- 
+<div class="row">
+  <div class="span6 offset3">
+    <%= form_for(@recipe) do |f| %>
+      <%= render 'fields', f: f %>
+      <section>
+        <div id = "initRow">
+          <%= f.fields_for :recipe_ingredients do |builder| %>
+            <p>
+              <%= builder.label :qty, "Qty" %><br/>
+              <%= builder.number_field :qty %>
+
+              <%= builder.label :ingredient_name, "Name" %><br/>
+              <%= builder.number_field :ingredient_name %>
+            </p>
+          <% end %>
+        </div>
+      </section>
+      <%= f.submit "Save changes", class: "btn btn-large btn-primary" %>
+    <% end %>
+    <%= cocktail_image %>
+  </div>
+</div>  -->

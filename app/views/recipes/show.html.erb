@@ -1,18 +1,14 @@
 <% provide(:title, @recipe.name) %>
 <div class="row">
-  
-<div class="span8">
-    <% if @recipe.ingredients.any? %>
-      <h1><%= cocktail_image %>
-        <%= @recipe.name %>  </h1>
-      
-      <ol class="ingredients">
-        
-        <%= render @ingredients %>
-      </ol>
-      <%= will_paginate @ingredients %>
-    <% end %>
-  </div>
-
+	<div class="span8">
+	    <% if @recipe.ingredients.any? %>
+	      <h1><%= cocktail_image %> <%= @recipe.name %> </h1>
+	      <ol class="ingredients">
+	        <% for recipe_ingredient in @recipe.recipe_ingredients %>
+	        <li> <%= recipe_ingredient.qty %> <%= recipe_ingredient.uom %>  <%= recipe_ingredient.ingredient.display_name %></li>
+	        <% end %>
+	      </ol>
+	     <% end %>
+	 </div>
 </div>
 

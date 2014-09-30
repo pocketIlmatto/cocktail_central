@@ -1,14 +1,17 @@
 class RecipesController < ApplicationController
   include RecipesHelper
-  helper_method :sort_column, :sort_direction
+  before_action :set_recipe, only: [:show, :edit, :update, :destroy]
+  
+  
 
   def new
     @recipe = Recipe.new
+    3.times { @recipe.recipe_ingredients.build }
   end
 
   def show
     @recipe = Recipe.find(params[:id])
-    @ingredients = @recipe.ingredients.paginate(page: params[:page])    
+    #@ingredients = @recipe.ingredients.paginate(page: params[:page])    
   end
 
   def index
@@ -20,7 +23,7 @@ class RecipesController < ApplicationController
   def create
 
     #TODO 
-    @recipe = Recipe.new
+    @recipe = Recipe.new(recipe_params)
 
     respond_to do |format|
       if @recipe.save
@@ -37,6 +40,8 @@ class RecipesController < ApplicationController
   def edit
     #TODO
     @recipe = Recipe.find(params[:id])
+    # @ingredients = @recipe.ingredients.paginate(page: params[:page])    
+
     #@recipe_ingredients = @recipe.ingredients.paginate(page: params[:page])    
   end
 
@@ -62,13 +67,21 @@ class RecipesController < ApplicationController
   end
 
   private
-
-    def recipe_params
-      params[:recipe][:ingredient_list] ||= []
-      params.require(:recipe).permit(:name, :search_ingredient, :search_type, ingredient_list: [])
+    def set_recipe
+      @recipe = Recipe.find(params[:id])
     end
 
-  def filter_by_ingredients ()
+    
+    def recipe_params
+      params[:recipe][:ingredient_list] ||= []
+      params.require(:recipe).permit(:name, :id,  
+                                      :search_ingredient, :search_type, 
+                                      recipe_ingredients_attributes: [:id, :amount, :qty, :ingredient_id, :recipe_id, 
+                                        ingredients_attributes: [:id, :name] ]) 
+                                      #ingredient_list: [])
+    end
+
+    def filter_by_ingredients ()
       
       ingredient_list = []
       ingredient_list = params[:ingredient_list]
@@ -90,10 +103,5 @@ class RecipesController < ApplicationController
         @recipes = Recipe.all
         
       end
-  end
-
-     
-    
-
-
+    end
 end

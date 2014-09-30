@@ -1,22 +1,7 @@
 <% provide(:title, "Edit recipe") %>
 <h1>Edit recipe</h1>
 
-<div class="row">
-  <div class="span6 offset3">
-    <%= form_for(@recipe) do |f| %>
-      <%= render 'fields', f: f %>
+<%= render 'form' %>
 
-      <%= f.submit "Save changes", class: "btn btn-large btn-primary" %>
-    <% end %>
-
-    <%= cocktail_image %>
-
-     <ol class="ingredients">
-        
-        <%= render @ingredients %>
-      </ol>
-      
-    <%= will_paginate @ingredients %>
-
-  </div>
-</div>
+<%= link_to "Show", @recipe %> |
+<%= link_to "View All", recipes_path %>

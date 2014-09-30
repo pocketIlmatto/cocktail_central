@@ -15,20 +15,17 @@
 //= require bootstrap
 //= require turbolinks
 //= require_tree .
-
+//= require cocoon
 
 function addFields(){
-            // Container <div> where dynamic content will be placed
-            var container = document.getElementById("initRow");
-            
-            container.appendChild(document.createElement("br"));
-           
-                // Create an <input> element, set its type and name attributes
-                var input = document.createElement("input");
-                input.type = "text";
-                input.name = "ingredient_list[]";
-                container.appendChild(input);
-                // Append a line break 
-                //container.appendChild(document.createElement("br"));
-            
-        }
+    // Container <div> where dynamic content will be placed
+    var container = document.getElementById("initRow");
+    container.appendChild(document.createElement("br"));
+    // Create an <input> element, set its type and name attributes
+    var input = document.createElement("input");
+    input.type = "text";
+    input.name = "ingredient_list[]";
+    container.appendChild(input);
+    // Append a line break 
+    //container.appendChild(document.createElement("br"));
+}
