@@ -27,4 +27,5 @@ class RecipeIngredient < ActiveRecord::Base
 	#  	self.ingredient.name unless self.ingredient.nil?
 	# end
 
+	
 end

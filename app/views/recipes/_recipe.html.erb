@@ -1,9 +1,5 @@
 <li>
       <%= cocktail_image %>
-      <%= link_to recipe.name, recipe %> | 
-      <%= link_to 'Edit', edit_recipe_path(recipe) %> |
-      <%= link_to "Delete", recipe, method: :delete,
-                                  data: { confirm: "Are you sure?" } %>
-  
+      <%= link_to recipe.name, recipe %> 
  </li>
 

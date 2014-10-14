@@ -2,7 +2,7 @@ Cocktail_Central::Application.routes.draw do
 
   resources :ingredients , only: [:index, :show]
 
-  resources :recipes
+  resources :recipes, except: [:edit, :new]
 
   root  'static_pages#home'
   match '/help',      to: 'static_pages#help',      via: 'get'

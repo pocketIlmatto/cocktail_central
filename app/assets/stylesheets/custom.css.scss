@@ -198,6 +198,9 @@ input {
     padding: 10px 0;
     border-top: 1px solid #e8e8e8;
   }
+  input {
+    width: 200px;
+  }
 }
 .content {
   display: block;
@@ -241,5 +244,11 @@ input {
 a.rowDelete {
     cursor: pointer;
     padding-left: 9px;
+}
+
+.btn{
+  a:visited {
+    color: white;
+    }
 }
 

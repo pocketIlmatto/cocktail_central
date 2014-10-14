@@ -1,20 +1,22 @@
 <%= form_for @recipe do |f| %>
   <%= render 'shared/error_messages' %>
   <p>
-    <%= f.label :name %><br/>
+    Recipe Name<br/>
     <%= f.text_field :name %>
   </p>
-  <%= f.fields_for :recipe_ingredients do |builder| %>
-    <p>
-    <%= builder.label :qty, "Qty" %><br/>
-    <%= builder.text_field :qty %>
-    <%= builder.check_box :_destroy %>
-    <%= builder.label :_destroy, "Remove ingredient" %>
-    <%= f.fields_for :ingredient do |inner| %>
-      <%= inner.label :name, "Ingredient" %>
-      <%= inner.text_field :name %>
-    <% end %>
-    </p>
+  <%= f.fields_for :recipe_ingredients do |recipe_ingredient| %>
+    <div class='ingredients'>    
+    <% ingredient_name = @recipe.ingredients.find(recipe_ingredient.object.id) %> 
+    <strong>Ingredient name:</strong> <%= ingredient_name.display_name %>
+    <%= recipe_ingredient.label :qty, "Qty" %>
+    <%= recipe_ingredient.text_field :qty %><br/>
+    <%= recipe_ingredient.label :uom, "Units" %>
+    <%= recipe_ingredient.text_field :uom %><br/>
+    <br/><br/>
+    
   <% end %>
+  </div>
+  
   <p><%= f.submit "Submit" %></p>
 <% end %>
+

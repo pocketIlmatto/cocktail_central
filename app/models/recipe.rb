@@ -20,4 +20,6 @@ class Recipe < ActiveRecord::Base
 									:allow_destroy => true
 
 	accepts_nested_attributes_for :ingredients
+
+	
 end

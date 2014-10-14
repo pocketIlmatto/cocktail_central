@@ -40,9 +40,8 @@ class RecipesController < ApplicationController
   def edit
     #TODO
     @recipe = Recipe.find(params[:id])
-    # @ingredients = @recipe.ingredients.paginate(page: params[:page])    
-
-    #@recipe_ingredients = @recipe.ingredients.paginate(page: params[:page])    
+    
+    
   end
 
   def update
