@@ -5,7 +5,7 @@ class IngredientsController < ApplicationController
   # GET /ingredients
   # GET /ingredients.json
   def index
-    @ingredients = pimp_my_bar().paginate(page: params[:page]) 
+    @ingredients = pimp_my_bar.paginate(page: params[:page]) 
   end
 
   # GET /ingredients/1
@@ -27,7 +27,7 @@ class IngredientsController < ApplicationController
     end   
     
 
-    def pimp_my_bar()
+    def pimp_my_bar
       
       ingredient_list = []
       ingredient_list = params[:ingredient_list]

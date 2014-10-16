@@ -87,8 +87,8 @@ class RecipesController < ApplicationController
       
       #filters by a single ingredient
       if !params[:search_ingredient].nil? 
+        @ingredient = Ingredient.find(params[:search_ingredient])
         @recipes = filter_recipes_by_ingredient(params[:search_ingredient])   
-
       #filters by a list of ingredients
       elsif !ingredient_list.nil? 
         if params[:search_type] == "inclusive"
