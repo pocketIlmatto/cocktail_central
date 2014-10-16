@@ -1,5 +1,10 @@
 <li>
       <%= ingredient.display_name  %> | 
-      <%= ingredient.count %> new recipe<%= ingredient.count > 1 ? "s" : "" %>! | 
+      <% params[:ingredient_list].push(ingredient.display_name).inspect %> |
+      <%= link_to "#{ingredient.count} new recipe#{ingredient.count > 1 ? 's' : ''}!", recipes_path(params) %>
+      <%# TODO make link to call the exclusive search with the ingredients, recipes_path(params[:ingredient_list] => params[:ingredient_list].push(ingredient.display_name)) %> | 
+      
       <%= link_to 'Show all related recipes', recipes_path + "?search_ingredient=#{ingredient.id}" %>  
+      <% params[:ingredient_list].delete(ingredient.display_name) %> |
  </li>
+

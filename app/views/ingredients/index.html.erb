@@ -1,7 +1,7 @@
 <h1>All Ingredients</h1>
 <p>
 <%= will_paginate %>
-
+<% params[:search_type] = "exclusive" %>
 <ul class="recipes">
   <%= render @ingredients %>
 </ul>
