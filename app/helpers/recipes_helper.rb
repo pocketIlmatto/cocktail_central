@@ -3,7 +3,7 @@ module RecipesHelper
 	    	@images = Dir.glob('app/assets/images/cocktails/*.png')
 	    	@random_image = @images[rand(@images.length)]
 	    	@random_image["app/assets/images/cocktails/"]= ""
-	    	image_tag("cocktails/#{@random_image}", size: "50x100", class: "gravatar")
+	    	image_tag("cocktails/#{@random_image}", size: "50x50", class: "gravatar")
   	end
 
 
