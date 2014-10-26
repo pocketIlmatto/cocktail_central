@@ -177,7 +177,10 @@ input {
 .jumbotron_cocktail {
   @extend .jumbotron;
   p {
-    font-size: 10px;
+    font-size: 18px;
+  }
+  h1 {
+    font-size: 50px;
   }
 
 }

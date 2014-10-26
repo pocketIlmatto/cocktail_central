@@ -30,3 +30,20 @@ function addFields(){
     // Append a line break 
     //container.appendChild(document.createElement("br"));
 }
+
+function sayHello(id, name){
+    $("#"+id).hide();
+
+    $("#selected_ingredients").append("<li id='selected_"+id+"'>"
+            +name+" <button class='btn btn-default' onclick='sayGoodbye(\"selected_"+id+
+                "\",\""+name+"\")'><i class='glyphicon glyphicon-remove-circle icon-blue'></i></button></li>")
+
+}
+
+function sayGoodbye(id, name){
+    $("#"+id).hide();
+    $("#popular_ingredients").append("<li id='"+id+"'>"
+            +name+" <button class='btn btn-default' onclick='sayHello(\""+id+
+                "\", \""+name+"\")'><i class='glyphicon glyphicon-ok-circle icon-blue'></i></button></li>")
+
+}

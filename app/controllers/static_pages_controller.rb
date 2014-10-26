@@ -1,8 +1,8 @@
 class StaticPagesController < ApplicationController
+  include IngredientsHelper
   def home
-  end
-
-  def help
+    @popular_ingredients = popular_ingredients(0,10)#Top 10
+    @recipes = Recipe.search("Gin", limit: 1)
   end
 
   def about
@@ -12,5 +12,10 @@ class StaticPagesController < ApplicationController
   end
 
   def search
+  end
+
+  private
+  def static_params
+      params[:ingredient_list] ||= []
   end
 end

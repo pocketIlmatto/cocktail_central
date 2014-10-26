@@ -1,0 +1,7 @@
+<div>
+  <div id="recipes_grid" >
+    <% unless @recipes.nil? %>
+    <%= render partial: 'recipes_list', locals: {recipes: recipes}  %>
+    <% end %>
+  </div>
+</div>

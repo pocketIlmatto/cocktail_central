@@ -12,4 +12,12 @@ module IngredientsHelper
 							.group('ingredients.id')
 							.order('count(ingredients.id) DESC')
 	end
+
+	def popular_ingredients (offset = 0, take = 10)
+		ingredients = Ingredient.joins(:recipe_ingredients)
+			.select("ingredients.id", "count(ingredients.id)", "display_name")
+			.group('ingredients.id')
+			.order('count(ingredients.id) DESC').offset(offset).take(take)
+	end
+
 end

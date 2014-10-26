@@ -10,6 +10,7 @@
 
 class Recipe < ActiveRecord::Base
 	#before_save { self.name = name.humanize}
+	
 	validates :name, presence: true, uniqueness: { case_sensitive: false}
 	
 	has_many :recipe_ingredients
@@ -20,6 +21,6 @@ class Recipe < ActiveRecord::Base
 									:allow_destroy => true
 
 	accepts_nested_attributes_for :ingredients
-
+	searchkick autocomplete: ['name']
 	
 end

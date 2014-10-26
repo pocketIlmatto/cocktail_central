@@ -1,8 +1,18 @@
 class RecipesController < ApplicationController
   include RecipesHelper
+  include IngredientsHelper
   before_action :set_recipe, only: [:show, :edit, :update, :destroy]
   
-  
+  def autocomplete
+    render json: Recipe.search(params[:query], limit: 10).map(&:name)
+  end
+
+  def search_from_ingredients
+    @selected = filter_recipes_by_ingredient_list_inclusive(params[:ingredient_list])
+    respond_to do |format|
+      format.js
+    end
+  end
 
   def new
     @recipe = Recipe.new
@@ -16,8 +26,14 @@ class RecipesController < ApplicationController
 
   def index
     #@recipes = Recipe.all.paginate(page: params[:page])
-    @recipes = filter_by_ingredients().paginate(page: params[:page]) 
-      
+    #@recipes = filter_by_ingredients().paginate(page: params[:page]) 
+    @popular_ingredients = popular_ingredients(0,10)#Top 10
+    
+    if params[:query].present?
+      @recipes = Recipe.search(params[:query], page: params[:page])
+    else
+      @recipes = Recipe.all.take(10)
+    end
   end
 
   def create
@@ -74,7 +90,7 @@ class RecipesController < ApplicationController
     def recipe_params
       params[:recipe][:ingredient_list] ||= []
       params.require(:recipe).permit(:name, :id,  
-                                      :search_ingredient, :search_type, 
+                                      :search_ingredient, :search_type, :query,
                                       recipe_ingredients_attributes: [:id, :amount, :qty, :ingredient_id, :recipe_id, 
                                         ingredients_attributes: [:id, :name] ]) 
                                       #ingredient_list: [])

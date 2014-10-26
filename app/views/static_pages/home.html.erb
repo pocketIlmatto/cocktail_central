@@ -2,53 +2,67 @@
 <div class="container theme-showcase" role="main">
 	<div class="jumbotron_cocktail">
 		<h1>Discover your new house drink!</h1>
-	        <center><p><i>The house drink</i>, the one you can make at a moment's notice, without needing to think about it. <i><strong>What's yours?</strong></i></p></center>
-	        <form role="search">
+	        <center><p><i>The house drink</i>, the one you can make at a moment's notice, without needing to think about it. <p><i><strong>What's yours?</strong></i></p></p></center>
+	        <%= form_tag("/recipes", method: "get") do %>
 	        <div class="input-group">
-	            <input type="text" class="form-control" placeholder="Search" name="srch-term" id="srch-term">
+	            <input type="text" class="form-control" placeholder="Search" name="query" id="recipe_search" autocomplete="off">
 	            <div class="input-group-btn">
 	                <button class="btn btn-default" type="submit"><i class="glyphicon glyphicon-search icon-blue"></i></button>
 	            </div>
 	        </div>
-	        </form>
+	        <% end %>
 	 </div>
  </div>
 <div class="container">
 	<div class="row">
+
         <div class="col-sm-4">
           <div class="panel panel-primary">
             <div class="panel-heading">
               <h3 class="panel-title">Do you have?</h3>
             </div>
             <div class="panel-body">
-              Panel content
+              <ul class="recipes" id = "popular_ingredients">
+                <% @popular_ingredients.each do |ingredient| %>
+                  <li id="ingredient<%= ingredient.id %>">
+                  <%= link_to ingredient.display_name, search_from_ingredients_path(:ingredient_list =>[ingredient.display_name]), :remote => true %> 
+                  <button class="btn btn-default" 
+                  onclick='sayHello("ingredient<%= ingredient.id %>","<%= ingredient.display_name %>")'>
+                  <i class="glyphicon glyphicon-ok-circle icon-blue"></i></button></li>
+                <% end %>
+              </ul>
             </div>
           </div>
         </div><!-- /.col-sm-4 -->
+
         <div class="col-sm-4">
           <div class="panel panel-info">
             <div class="panel-heading">
               <h3 class="panel-title">My Ingredients</h3>
             </div>
             <div class="panel-body">
-              Panel content
+              <ul class="recipes" id="selected_ingredients">
+                
+              </ul>
             </div>
           </div>
         </div><!-- /.col-sm-4 -->
+
         <div class="col-sm-4">
           <div class="panel panel-warning">
             <div class="panel-heading">
-              <h3 class="panel-title">Pimp It!</h3>
+              <h3 class="panel-title">Recipes</h3>
             </div>
             <div class="panel-body">
-              Panel content
+              <ul class="recipes" id="recipes">
+                <%= render partial: 'recipe_grid', locals: { recipes: @recipes} %>
+              </ul>
             </div>
           </div>
         </div><!-- /.col-sm-4 -->
+
  	</div>
 </div>
-
-  <%#= link_to "Recipes", recipes_path, class: "btn btn-large btn-primary" %>
 
 
 
