@@ -31,7 +31,7 @@ function addFields(){
     //container.appendChild(document.createElement("br"));
 }
 
-function sayHello(id, name){
+function selectIngredient(id, name){
     $("#"+id).hide();
 
     $("#selected_ingredients").append("<li id='selected_"+id+"'>"
@@ -40,7 +40,7 @@ function sayHello(id, name){
 
 }
 
-function sayGoodbye(id, name){
+function removeIngredient(id, name){
     $("#"+id).hide();
     $("#popular_ingredients").append("<li id='"+id+"'>"
             +name+" <button class='btn btn-default' onclick='sayHello(\""+id+
