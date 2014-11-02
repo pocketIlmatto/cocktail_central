@@ -24,13 +24,13 @@
               <ul class="recipes" id = "popular_ingredients">
                 <% @popular_ingredients.each do |ingredient| %>
                   <li id="ingredient<%= ingredient.id %>">
-                  <% params[:ingredient_list].push(ingredient.display_name) %>
+                  <%# params[:ingredient_list].push(ingredient.display_name) %>
       				
-                  <%= link_to search_from_ingredients_path(:ingredient_list => params[:ingredient_list]), :id => "ingredient-"+ingredient.id.to_s, :data => {:direction => 1, :ingredient_id => ingredient.id.to_s}, :remote => true do %> 
+                  <%= link_to root_path, :id => "ingredient-"+ingredient.id.to_s, :data => {:direction => 1, :ingredient_id => ingredient.id.to_s, :display_name => ingredient.display_name}, :remote => true do %> 
                   <%= ingredient.display_name %> <i class="glyphicon glyphicon-ok-circle icon-blue"></i>
                   <% end %>
                   
-                  <% params[:ingredient_list].delete(ingredient.display_name) %>
+                  <%# params[:ingredient_list].delete(ingredient.display_name) %>
                   <!--<button class="btn btn-default" 
                   onclick='sayHello("ingredient<%= ingredient.id %>","<%= ingredient.display_name %>")'>
                   <i class="glyphicon glyphicon-ok-circle icon-blue"></i></button> --></li>

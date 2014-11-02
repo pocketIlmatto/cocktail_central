@@ -8,7 +8,10 @@ class RecipesController < ApplicationController
   end
 
   def search_from_ingredients
-    @selected = filter_recipes_by_ingredient_list_inclusive(params[:ingredient_list])
+    puts "got into ajax call"
+    #@selected = filter_recipes_by_ingredient_list_inclusive(params[:ingredient_list])
+    @selected = filter_recipes_by_ingredient_list(params[:ingredient_list])
+    
     respond_to do |format|
       format.js
     end
