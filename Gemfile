@@ -17,6 +17,8 @@ gem 'turbolinks', '1.1.1'
 gem 'jbuilder', '1.0.2'
 gem 'autoprefixer-rails'
 gem 'searchkick'
+gem 'react-rails', github: 'reactjs/react-rails', branch: 'master'
+gem 'showdown-rails'
 
 group :development, :test do
   gem 'sqlite3', '1.3.8'

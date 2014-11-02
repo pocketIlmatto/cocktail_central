@@ -8,7 +8,9 @@ class RecipesController < ApplicationController
   end
 
   def search_from_ingredients
-    @selected = filter_recipes_by_ingredient_list_inclusive(params[:ingredient_list])
+    @ingredient_list.push(params[:ingredient])
+    @selected = filter_recipes_by_ingredient_list_inclusive(@ingredient_lists).take(10)
+    @popular_ingredients = popular_ingredients(10,5)
     respond_to do |format|
       format.js
     end
