@@ -1,5 +1,7 @@
-<% recipes.each do |recipe| %>
+<% unless recipes.nil?
+	recipes.each do |recipe| %>
   <li>
-      <%= link_to recipe.name, recipe %> 
+      <%= render recipe %> 
  </li>
+ <% end %>
 <% end %>

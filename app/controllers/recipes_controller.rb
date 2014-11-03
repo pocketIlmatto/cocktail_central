@@ -7,9 +7,18 @@ class RecipesController < ApplicationController
     render json: Recipe.search(params[:query], limit: 10).map(&:name)
   end
 
+  def recipe_search_results
+    if params[:query].present?
+      @recipes = Recipe.search(params[:query], page: params[:page])
+    else
+      @recipes = Recipe.all.take(10)
+    end
+  end
+
   def search_from_ingredients
-    puts "got into ajax call"
     #@selected = filter_recipes_by_ingredient_list_inclusive(params[:ingredient_list])
+    puts "got into search from ingredients"
+    puts params[:ingredient_list]
     @selected = filter_recipes_by_ingredient_list(params[:ingredient_list])
     
     respond_to do |format|
@@ -32,11 +41,11 @@ class RecipesController < ApplicationController
     #@recipes = filter_by_ingredients().paginate(page: params[:page]) 
     @popular_ingredients = popular_ingredients(0,10)#Top 10
     
-    if params[:query].present?
-      @recipes = Recipe.search(params[:query], page: params[:page])
-    else
-      @recipes = Recipe.all.take(10)
-    end
+    # if params[:query].present?
+    #   @recipes = Recipe.search(params[:query], page: params[:page])
+    # else
+    #   @recipes = Recipe.all.take(10)
+    # end
   end
 
   def create

@@ -8,10 +8,13 @@ moveIngredient = (direction, id, displayName) ->
       ingredientList[ingredientList.length] = displayName;
       $("#ingredient-"+id).data('direction', 0);
       $("#selected_ingredients").append($("#ingredient"+id));
+      $("#glyph-"+id).addClass("glyphicon-remove-circle icon-red").removeClass("glyphicon-ok-circle icon-blue");
     else
-      ingredientList.splice(ingredientList.indexOf(displayName));
+      ingredientList.splice(ingredientList.indexOf(displayName),1);
       $("#ingredient-"+id).data('direction', 1);
       $("#popular_ingredients").append($("#ingredient"+id));
+      $("#glyph-"+id).addClass("glyphicon-ok-circle icon-blue").removeClass("glyphicon-remove-circle icon-red");
+    
     $.ajax 'search_from_ingredients',
         type: 'GET'
         data: { 'ingredient_list' : ingredientList} 

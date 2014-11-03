@@ -1,8 +1,8 @@
 <div class="container theme-showcase" role="main">
 	<div class="jumbotron_cocktail">
-		<h1>Discover your new house drink!</h1>
-	        <center><p><i>The house drink</i>, the one you can make at a moment's notice, without needing to think about it. <p><i><strong>What's yours?</strong></i></p></p></center>
-	        <%= form_tag("/recipes", method: "get") do %>
+		<h1>Discover your next house drink!</h1>
+	        <p><strong>house drink</strong> [n., hous dringk] 1. A mixed drink that can be made at a moment's notice, without needing to think about it or purchase additional ingredients. <i>"My grandmother's house drink is a Manhattan..she has one every evening before bed.</i></p>
+	        <%= form_tag("/recipes/recipe_search_results", method: "get") do %>
 	        <div class="input-group">
 	            <input type="text" class="form-control" placeholder="Search" name="query" id="recipe_search" autocomplete="off">
 	            <div class="input-group-btn">
@@ -12,49 +12,54 @@
 	        <% end %>
 	 </div>
  </div>
+
+
 <div class="container">
-	<div class="row">
-	<% params[:ingredient_list] ||= [] %>
-        <div class="col-sm-4">
-          <div class="panel panel-primary">
-            <div class="panel-heading">
-              <h3 class="panel-title">Do you have?</h3>
-            </div>
-            <div class="panel-body">
-              <ul class="recipes" id = "popular_ingredients">
-                <% @popular_ingredients.each do |ingredient| %>
-                  <li id="ingredient<%= ingredient.id %>">
-                  <%# params[:ingredient_list].push(ingredient.display_name) %>
-      				
-                  <%= link_to root_path, :id => "ingredient-"+ingredient.id.to_s, :data => {:direction => 1, :ingredient_id => ingredient.id.to_s, :display_name => ingredient.display_name}, :remote => true do %> 
-                  <%= ingredient.display_name %> <i class="glyphicon glyphicon-ok-circle icon-blue"></i>
+  <div class="row">
+      
+      <div class="col-sm-4">
+        
+        <div class = "row">
+          <div class="col-sm-12">
+            <div class="panel panel-primary">
+              <div class="panel-heading">
+                <h3 class="panel-title">Do you have?</h3>
+              </div>
+              <div class="panel-body">
+                <ul class="recipes" id = "popular_ingredients">
+                  <% @popular_ingredients.each do |ingredient| %>
+                    <li id="ingredient<%= ingredient.id %>">
+                      <%= link_to root_path, :id => "ingredient-"+ingredient.id.to_s, :data => {:direction => 1, :ingredient_id => ingredient.id.to_s, :display_name => ingredient.display_name}, :remote => true do %> 
+                      <%= ingredient.display_name %> <i id="glyph-<%= ingredient.id.to_s %>" class="glyphicon glyphicon-ok-circle icon-blue"></i>
+                      <% end %>
+                    </li>
                   <% end %>
-                  
-                  <%# params[:ingredient_list].delete(ingredient.display_name) %>
-                  <!--<button class="btn btn-default" 
-                  onclick='sayHello("ingredient<%= ingredient.id %>","<%= ingredient.display_name %>")'>
-                  <i class="glyphicon glyphicon-ok-circle icon-blue"></i></button> --></li>
-                <% end %>
-              </ul>
+                </ul>
+              </div>
             </div>
           </div>
-        </div><!-- /.col-sm-4 -->
+        </div>
 
-        <div class="col-sm-4">
-          <div class="panel panel-info">
-            <div class="panel-heading">
-              <h3 class="panel-title">My Ingredients</h3>
+        <div class = "row">
+          <div class="col-sm-12">
+            <div class="panel panel-primary">
+              <div class="panel-heading">
+                <h3 class="panel-title">My Ingredients</h3>
+              </div>
+              <div class="panel-body">
+                <ul class="recipes" id="selected_ingredients">
+                    
+                </ul>
+              </div>
             </div>
-            <div class="panel-body">
-              <ul class="recipes" id="selected_ingredients">
-                
-              </ul>
-            </div>
-          </div>
-        </div><!-- /.col-sm-4 -->
+          </div><!-- /.col-sm-4 -->
+        </div>
 
-        <div class="col-sm-4">
-          <div class="panel panel-warning">
+      </div><!-- /.col-sm-4 -->
+
+      
+      <div class="col-sm-8">
+        <div class="panel panel-warning">
             <div class="panel-heading">
               <h3 class="panel-title">Recipes</h3>
             </div>
@@ -64,24 +69,6 @@
               </ul>
             </div>
           </div>
-        </div><!-- /.col-sm-4 -->
-
- 	</div>
- 	<div class="row">
- 		<div class="col-sm-8">
-          <div class="panel panel-primary">
-            <div class="panel-heading">
-              <h3 class="panel-title">Recipes</h3>
-            </div>
-            <div class="panel-body">
-              <ul class="recipes">
-		  		<%= render @recipes %>
-			</ul>
-
-            </div>
-          </div>
-        </div><!-- /.col-sm-4 -->
-     </div>
-
-
+        </div>
+    </div>
 </div>

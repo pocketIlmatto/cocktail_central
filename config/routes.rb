@@ -5,6 +5,7 @@ Cocktail_Central::Application.routes.draw do
   resources :recipes, except: [:edit, :new] do
   	collection do
   		get :autocomplete
+      get :recipe_search_results
   	end
   end
 

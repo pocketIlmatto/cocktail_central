@@ -18,9 +18,13 @@ module RecipesHelper
 	def filter_recipes_by_ingredient_list (ingredient_list = [])		
 		#TODO refactor
 		#ingredient_list = ["Rye Whiskey", "Dry Vermouth", "Grand Marnier", "Orange Bitters", "American Whiskey"]
-		@recipes = Recipe.select("DISTINCT recipes.*").joins(:recipe_ingredients).where("recipes.id NOT IN (?)",
-			RecipeIngredient.joins(:ingredient).where("ingredients.name NOT IN (?)", 
-				ingredient_list.map(&:downcase)).select("recipe_id"))		
+		unless ingredient_list.nil?
+			@recipes = Recipe.select("DISTINCT recipes.*").joins(:recipe_ingredients).where("recipes.id NOT IN (?)",
+				RecipeIngredient.joins(:ingredient).where("ingredients.name NOT IN (?)", 
+					ingredient_list.map(&:downcase)).select("recipe_id"))	
+		else
+			@recipes = nil
+		end
 	end
 
 	def filter_recipes_by_ingredient_list_inclusive (ingredient_list = [])		

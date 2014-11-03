@@ -20780,7 +20780,7 @@
 @ingredient.display_name = "apple"
 @ingredient.save
 @recipe_ingredient = @ingredient.recipe_ingredients.find_or_initialize_by(recipe_id: @recipe.id)
-@recipe_ingredient.qty = "1 chunk baked"
+@recipe_ingredient.qty = "1 "chunk" baked"
 @recipe_ingredient.save
 @recipe = Recipe.find_or_initialize_by(name: "Absinthe Special Cocktail")
 @recipe.save
