@@ -1,11 +1,11 @@
-== Cocktail Central
+==Cocktail Central
 
-Online database of cocktail recipies In the background, there are 3 different search options for finding recipes or ingredients based on a list of ingredients:
+Online database of cocktail recipies. In the background, there are 3 different search options for finding recipes or ingredients based on a list of ingredients:
 
 <ol>
-<li>Search for all recipes that include a certain ingredient or ingredients <-- This search isn't currently exposed to the UI</li>
-<li>Search for only recipes that can be made given an ingredient list. <-- This search is in use on the home page currently. </li>
-<li>Pimp my bar! - search for new ingredients to add to your bar in order to maximize the number of different drinks you can make! <-- This search can be found at /pimp and is not currently exposed on the home page</li>
+<li>Search for all recipes that include a certain ingredient or ingredients. This search isn't currently exposed to the UI</li>
+<li>Search for only recipes that can be made given an ingredient list. This search is in use on the home page currently. </li>
+<li>Pimp my bar! - search for new ingredients to add to your bar in order to maximize the number of different drinks you can make! This search can be found at /pimp and is not currently exposed on the home page</li>
 </ol>
 
 
